@@ -52,6 +52,7 @@ You can do two versions for the same solution:
 Following the same color codes, the result should look something like this:
 ![](bio2-com1-wires.png)
 ![](mounted-serial-adapter.png)
+
 Since this only for serial data transfer, the fourth pin on the COM1 connector in the CCJ, which corresponds to +12V, goes unused, therefore the only pins needed will be, in order, TX, RX and GND.
 
 The resulting pinout would be:
@@ -61,6 +62,7 @@ The resulting pinout would be:
 | RX (pin 2)  | TX (pin 2)  |
 | TX (pin 3)  | RX (pin 1)  |
 | GND (pin 5) | GND (pin 3) |
+
 Be sure to keep the metal part of the Dupont side up and try to push it inside as far as you can without too much force. This just works™ but Dupont cables are pretty frail and can unplug at any time if you need to move the cabinet
 ##### 2. Build a JST connector:
 This takes a bit of extra effort but results in a more clean and resilient solution. Only materials needed are the JST plugs and terminals attached at the beginning of the section, and of course a crimper.

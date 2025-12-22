@@ -1,3 +1,6 @@
+<div align="center">
+    <img src="banner.png" style="width: 100%" />
+</div>
 # Installing reader in pop'n music Type-A (Animelo) cabinet
 ## Reader Wiring
 > [!important] 

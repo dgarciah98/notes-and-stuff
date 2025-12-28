@@ -35,7 +35,7 @@ Since the CCJ PCB is pretty large, as it cannot or it is very difficult to put i
 
 For the readers, the most seamless solution is to build a RS232 DB9 male connector to plug the reader serial cable and to plug into the CCJ's COM1 port, which is a JST connector
 ### Step 5.1: Building the COM1 cable
-> [!IMPORTANT]-
+> [!IMPORTANT]
 > # Bill Of Materials
 > #### COM:	  
 > - JST XMP-04:

@@ -3,6 +3,11 @@
 </div>
 
 # Installing reader in pop'n music Type-A (Animelo) cabinet
+This is a small, probably not very well developed guide showing how to set up an original Konami IC reader for a pop'n music Type-A (Animelo) cabinet.
+
+These cabinets may have the reader already set up if they come with the pillar reader, otherwise you can work it this way if you want to install it.
+
+Feel free to DM me in Discord if you have questions: @elmiamiman
 ## Reader Wiring
 > [!important] 
 > # Bill Of Materials 

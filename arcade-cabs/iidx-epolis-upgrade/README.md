@@ -35,7 +35,7 @@ Since the CCJ PCB is pretty large, as it cannot or it is very difficult to put i
 
 For the readers, the most seamless solution is to build a RS232 DB9 male connector to plug the reader serial cable and to plug into the CCJ's COM1 port, which is a JST connector
 ### Step 5.1: Building the COM1 cable
-> [!IMPORTANT]
+> [!IMPORTANT]-
 > # Bill Of Materials
 > #### COM:	  
 > - JST XMP-04:
@@ -66,6 +66,6 @@ The resulting pinout would be:
 Be sure to keep the metal part of the Dupont side up and try to push it inside as far as you can without too much force. This just works™ but Dupont cables are pretty frail and can unplug at any time if you need to move the cabinet
 ##### 2. Build a JST connector:
 This takes a bit of extra effort but results in a more clean and resilient solution. Only materials needed are the JST plugs and terminals attached at the beginning of the section, and of course a crimper.
-![](diy-serial-to-jst2.png)![](diy-serial-to-jst.png)![](serial-adapter-result.png)
+![](diy-serial-to-jst2.jpg)![](diy-serial-to-jst.jpg)![](serial-adapter-result.jpg)
 # Result inside cab
 ![](epolis-upgrade-results-1.png)![](epolis-upgrade-results-2.png)

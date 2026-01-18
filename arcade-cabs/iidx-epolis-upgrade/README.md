@@ -52,6 +52,7 @@ For the readers, the most seamless solution is to build a RS232 DB9 male connect
 You can do two versions for the same solution:
 ##### 1. Plugging Dupont cables following the next diagram when connecting:
 ![](img/reader-serial-pinout.png)
+
 Following the same color codes, the result should look something like this:
 ![](img/bio2-com1-wires.png)
 ![](img/mounted-serial-adapter.png)

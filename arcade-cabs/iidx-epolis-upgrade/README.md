@@ -1,3 +1,6 @@
+---
+sticker: emoji//1f4bd
+---
 # IIDX Epolis upgrade with CCJ PCB
 >[!NOTE] 
 > Mirror: https://rentry.co/iidx-epolis-ccj-upgrade
@@ -23,14 +26,14 @@ Swap I/O board from CCJ for the BIO2 inside the IIDX PCB (assuming it is a CB PC
 Unplug **CN15** and **COM** (CN7 in BIO2) cables from IIDX PCB, has to be plugged into the BIO2 inside the CCJ
    - Cables look like this: ![](bio2-with-cables.png)
 ## Step 3: Get the audio card
-Buy a Asus XONAR AE audio card, line signal will go into the FRONT jack port from the card
+Buy a Asus XONAR AE audio card and insert it to any PCIe slot, line signal will go into the FRONT jack port from the card.
 
 > [!warning] 
 > # Keep in mind
 > You will have to cut open a hole on the PCB case at the same spot where your XONAR will be, otherwise you won't be able to plug anything into the card. How you want to cut it is totally up to you depending on what you want or need.
 ## Step 4: Place CCJ PCB inside the cab
 
-Since the CCJ PCB is pretty large, as it cannot or it is very difficult to put inside the cabinet vertically, my recommendation is to place it horizontally, using the transformer inside and whatever you can use that is robust enough and the same height as said transformer as support, along with the wooden tray used for the IIDX PCB, which should be attached to it at the beginning (pictures shown at the end). A cleaner (and of course less crazy) solution would be building a tray or some kind of platform so it stays above the transformer.
+Since the CCJ PCB is pretty large, as it cannot or it is very difficult to put inside the cabinet vertically, what I did is to place it horizontally, using the transformer inside and whatever you can use that is robust enough and the same height as said transformer as support, along with the wooden tray used for the IIDX PCB, which should be attached to it at the beginning (pictures shown at the end). A cleaner (and of course less crazy) solution would be building a tray or some kind of platform so it stays above the transformer.
 ## Step 5: Readers
 
 For the readers, the most seamless solution is to build a RS232 DB9 male connector to plug the reader serial cable and to plug into the CCJ's COM1 port, which is a JST connector
@@ -48,7 +51,7 @@ For the readers, the most seamless solution is to build a RS232 DB9 male connect
 
 You can do two versions for the same solution:
 ##### 1. Plugging Dupont cables following the next diagram when connecting:
-![](arcade-cabs/iidx-epolis-upgrade/reader-serial-pinout.png)
+![](reader-serial-pinout.png)
 Following the same color codes, the result should look something like this:
 ![](bio2-com1-wires.png)
 ![](mounted-serial-adapter.png)
@@ -57,11 +60,11 @@ Since this only for serial data transfer, the fourth pin on the COM1 connector i
 
 The resulting pinout would be:
 
-| DB9         | JST         |
-| ----------- | ----------- |
-| RX (pin 2)  | TX (pin 2)  |
-| TX (pin 3)  | RX (pin 1)  |
-| GND (pin 5) | GND (pin 3) |
+| DB9         | to  | JST         |
+| ----------- | --- | ----------- |
+| RX (pin 2)  | ->  | TX (pin 2)  |
+| TX (pin 3)  | ->  | RX (pin 1)  |
+| GND (pin 5) | ->  | GND (pin 3) |
 
 Be sure to keep the metal part of the Dupont side up and try to push it inside as far as you can without too much force. This just works™ but Dupont cables are pretty frail and can unplug at any time if you need to move the cabinet
 ##### 2. Build a JST connector:

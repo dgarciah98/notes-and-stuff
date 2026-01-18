@@ -1,3 +1,6 @@
+---
+sticker: emoji//1f354
+---
 <div align="center">
     <img src="banner.png" style="width: 100%" />
 </div>
@@ -34,7 +37,7 @@ According to the manual, this is how IC readers are wired:
 
 CN3 might just be wired up to a RS232 DB9 connector for ease of use. That same connector will be connected to a DB9 cable that will have to go down the cabinet until the PCB, then connected to the PC's serial connector. A 2 meter cable should be enough length.
 
-CN2 needs to be powered with 12V, in my case there was already a splice made where I could take 12V easily, one may take it from the cabinet's PSU if possible or an external one. Same case for the ground
+CN2 needs to be powered with 12V, in my case there was already a splice made where I could take 12V easily, one may take it from the cabinet's PSU if possible or an external one. Same case for the ground as it has to be taken from the same source as the 12V.
 ## Keypad
 > [!important]
 > # Bill Of Materials 
@@ -60,7 +63,7 @@ For this cabinet the instruction card was replaced with a 3D printed panel where
 
 The 3D model by @roxandtol on Discord can be found here: https://www.printables.com/model/1509814-popn-animelo-front-panel
 # Results
-![](popn-reader-and-keyboard.png)
-![](popn-keyboard-cable.png)
+![](popn-reader-and-keyboard.jpg)
+![](popn-keyboard-cable.jpg)
 ![](popn-front-panel1.png)
 ![](popn-front-panel2.png)

@@ -30,10 +30,10 @@ According to the manual, this is how IC readers are wired:
 - CN2: Power
 - CN3: Serial signal
 
-![](reader-serial-pinout.png)
-![](reader-wiring.png)
-![](reader-connectors.png)
-![](wired-reader.png)
+![](img/reader-serial-pinout.png)
+![](diagrams/reader-wiring.png)
+![](img/reader-connectors.png)
+![](img/wired-reader.png)
 
 CN3 might just be wired up to a RS232 DB9 connector for ease of use. That same connector will be connected to a DB9 cable that will have to go down the cabinet until the PCB, then connected to the PC's serial connector. A 2 meter cable should be enough length.
 
@@ -49,21 +49,21 @@ CN2 needs to be powered with 12V, in my case there was already a splice made whe
 >	- Harness: https://es.aliexpress.com/item/1005005276963716.html
 
 The cable that comes out from the keypad goes into CN1 in the reader:
-![](keypad-wiring.png)
+![](diagrams/keypad-wiring.png)
 > [!tip] 
 > # For wiring the keypad
 > Keep in mind that the order of pins, from left to right and while the keys are face up, will be in reverse order, that is from 8 to 1, as can be seen in the next picture.
 > 
 > Be careful with this detail, and also that the IN pins are reversed in the keypad connector, in order to not mix up the wiring and make the keypad send the wrong inputs
 
-![](keypad.png)
+![](img/keypad.png)
 
 ## Mounting the reader and keypad
 For this cabinet the instruction card was replaced with a 3D printed panel where the both the reader and the keypad have been mounted to make them easily accessible.
 
 The 3D model by @roxandtol on Discord can be found here: https://www.printables.com/model/1509814-popn-animelo-front-panel
 # Results
-![](popn-reader-and-keyboard.jpg)
-![](popn-keyboard-cable.jpg)
-![](popn-front-panel1.png)
-![](popn-front-panel2.png)
+![](img/popn-reader-and-keyboard.jpg)
+![](img/popn-keyboard-cable.jpg)
+![](img/popn-front-panel1.png)
+![](img/popn-front-panel2.png)

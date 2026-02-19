@@ -19,6 +19,6 @@ public
 private
 node_modules
 package-lock.json
-**/.obsidian/plugins
-**/.obsidian/*.json
+*.obsidian/plugins
+*.obsidian/*.json
 .quartz-cache

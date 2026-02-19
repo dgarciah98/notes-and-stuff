@@ -1,0 +1,7 @@
+{
+  "move-dates": false,
+  "show-relative-date": true,
+  "link-date-to-daily-note": false,
+  "date-display-format": "YYYY-MM-DD",
+  "date-format": "YYYY-MM-DD"
+}

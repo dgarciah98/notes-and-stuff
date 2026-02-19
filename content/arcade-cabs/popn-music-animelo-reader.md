@@ -3,7 +3,7 @@ sticker: emoji//1f354
 title: pop'n music Animelo cab Reader Setup
 aliases:
   - pop'n music Animelo Reader
-Description: Installation of a Konami IC Reader on a pop'n music Animelo cabinet
+description: Related documentation for setting up an IC reader for a pop’n music Type-A (Animelo) cabinet
 ---
 <div align="center">
     <img src="popn-music-animelo-reader/img/banner.png" style="width: 100%" />

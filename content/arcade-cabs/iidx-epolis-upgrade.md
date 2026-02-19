@@ -3,7 +3,7 @@ sticker: emoji//1f4bd
 title: IIDX EPOLIS upgrade
 aliases:
   - IIDX EPOLIS upgrade with CCJ PCB
-Description: Upgrading a IIDX cabinet with a CCJ PCB in order to be able to run EPOLIS
+description: Small guide about the process of upgrading a beatmania IIDX Tricoro cabinet to be able to run EPOLIS with a CCJ PCB
 ---
 # IIDX Epolis upgrade with CCJ PCB
 >[!NOTE] Mirror: https://rentry.co/iidx-epolis-ccj-upgrade

@@ -55,8 +55,7 @@
     "/",
     "//arcade-cabs/arcade-cabs/popn-music-animelo-reader/arcade-cabs/popn-music-animelo-reader/diagrams",
     "//arcade-cabs/arcade-cabs/popn-music-animelo-reader/arcade-cabs/popn-music-animelo-reader/img",
-    "//arcade-cabs",
-    "//arcade-cabs/arcade-cabs/iidx-lm-convert"
+    "//arcade-cabs"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",
@@ -68,6 +67,8 @@
     "_assets",
     "_blocks"
   ],
+  "newFileLocation": "root",
+  "newFileFolderPath": "",
   "inlineBacklinks": false,
   "inlineContext": true,
   "inlineBacklinksExpanded": false,

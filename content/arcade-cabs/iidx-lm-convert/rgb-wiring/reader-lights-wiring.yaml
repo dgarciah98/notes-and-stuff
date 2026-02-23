@@ -1,0 +1,78 @@
+connectors:
+  COM1:
+    type: XMR-04V
+    pincount: 4
+    pinlabels: [TX, RX, GND, +12V]
+  CN10:
+    type: XADRP-18V
+    pincount: 18
+    notes: CCJ connector is external
+    pinlabels:
+      [
+        1P IC LED R,
+        1P IC LED G,
+        1P IC LED B,
+        2P IC LED R,
+        2P IC LED G,
+        2P IC LED B,
+        WOOFER LED R,
+        WOOFER LED G,
+      ]
+    pins: [1,2,3,4,5,6,7,8,9,...]
+  IC/W_LED:
+    type: XADRP-12V
+    pincount: 12
+    #pins: [12,11,10,9,8,7,6,5,4,3,2,1]
+    additional_components:
+      - 
+        type: SXA-001T-P0.6 terminals
+        qty_multiplier: populated
+  IC/W_BIO2:
+    type: XADR-12V
+    pincount: 12
+    #pins: [12,11,10,9,8,7,6,5,4,3,2,1]
+    additional_components:
+      - 
+        type: SXAM-001T-P0.6 terminals
+        qty_multiplier: populated
+  LED: 
+    type: PHR-5
+    pinlabels: [GND, BLUE, GREEN, RED, Vin]
+    pins: [5,4,3,2,1]
+
+cables:
+  IC/W_LED_WIRES:
+    color_code: DIN
+    gauge: 22 AWG
+    colors: [RD, GN, BU, RD, GN, BU]
+  LED_WIRES:
+    color_code: DIN
+    gauge: 22 AWG
+    wirecount: 5
+    colors: [BK, BU, GN, RD, YE]
+
+connections:
+  - - LED.IC_LED2: [2-4]
+    - LED_WIRES.IC_LED_W2: [4-2]
+    - IC/W_LED: [5-7]
+
+  - - LED.IC_LED1: [2-4]
+    - LED_WIRES.IC_LED_W1: [4-2]
+    - IC/W_LED: [2-4]
+
+  - - LED.IC_LED1: [1,5]
+    - LED_WIRES.IC_LED_W1: [5,1]
+    - COM1: [4,3]
+
+  - - LED.IC_LED2: [1,5]
+    - LED_WIRES.IC_LED_W2: [5,1]
+    - COM1: [4,3]
+ 
+  - - IC/W_LED
+    - <=>
+    - IC/W_BIO2
+ 
+  - - IC/W_BIO2: [2-7]
+    - IC/W_LED_WIRES: [1-6]
+    - CN10: [1-6]
+  

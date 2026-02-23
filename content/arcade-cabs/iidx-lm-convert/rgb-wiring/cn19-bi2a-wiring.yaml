@@ -1,0 +1,23 @@
+connectors:
+  BIO2_OUTPUT:
+    type: XADRP-20V
+    pincount: 20
+    notes: Goes to relay board
+    pins: [...,16,17,18,19,20]
+    
+  CN19:
+    type: PHDR-20VS
+    pincount: 20
+    pinlabels: ["", SENSOR LL, SENSOR LR, SENSOR RL, SENSOR RR, "","","","",GND]
+    pins: [...,8,9,10,11,12,13,14,15,16,....]
+
+cables:
+  CN19_BI2A_WIRES:
+    color_code: DIN
+    colors: [WH,WH,WH,WH,BK]
+
+connections:
+  -
+    - BIO2_OUTPUT: [16-20]
+    - CN19_BI2A_WIRES: [1-5]
+    - CN19: [8-11,16]

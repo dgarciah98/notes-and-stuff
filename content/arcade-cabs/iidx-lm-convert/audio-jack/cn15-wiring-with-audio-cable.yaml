@@ -1,0 +1,61 @@
+connectors:
+  CN15_EXT:
+    type: XMR-08V
+    pincount: 8
+    notes: Same as original CN15 cable
+    pinlabels: [GND, SW2 (1P), SW3 (1P), SW4 (1P), SW5 (1P), SW6 (1P), SW7 (1P), IN16]
+    additional_components:
+      - 
+        type: SXM-001T-P0.6 terminals
+        qty_multiplier: populated
+  CN15:
+    type: PHDR-26VS
+    pincount: 26
+    pinlabels: [GND, SW2 (1P), SW3 (1P), SW4 (1P), SW5 (1P), SW6 (1P), SW7 (1P), IN16, "", HP DETECT 1P, HP DETECT 2P, REC DETECT 1P, REC DETECT 2P, "", "", "", "", "", "", "", GND]
+    pins: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,...,21,22,....,26]
+
+  XONAR_AE:
+    type: 3.5mm jack
+    pincount: 6
+    pinlabels: [Mic/Line in, Headphone, Front, Rear, Center, Side]
+
+  AUDIO_JACK:
+    type: 3.5mm jack
+    pincount: 4
+    pinlabels: [COMMON, LEFT, RIGHT, MIC]
+
+cables:
+  CN15_WIRES:
+    color_code: DIN
+    gauge: 26 AWG
+    colors: [BK, GN, BU, VT, GY, WH, PK, GN]
+  AUDIO_CABLE:
+    color_code: DIN
+    gauge: 22 AWG
+    colors: [BK, YE, RD, WH]
+
+connections:
+  -
+    - CN15_EXT: [1-8]
+    - CN15_WIRES: [1-8]
+    - CN15: [1-8]
+
+  -
+    - AUDIO_JACK.P1_JACK: [1-3]
+    - AUDIO_CABLE.P1_CABLE: [1-3]
+    - XONAR_AE: [6,6,6]
+
+  -
+    - AUDIO_JACK.P2_JACK: [1-3]
+    - AUDIO_CABLE.P2_CABLE: [1-3]
+    - XONAR_AE: [4,4,4]
+
+  -
+    - AUDIO_JACK.P1_JACK: [4]
+    - AUDIO_CABLE.P1_CABLE: [4]
+    - CN15: [10]
+
+  -
+    - AUDIO_JACK.P2_JACK: [4]
+    - AUDIO_CABLE.P2_CABLE: [4]
+    - CN15: [11]

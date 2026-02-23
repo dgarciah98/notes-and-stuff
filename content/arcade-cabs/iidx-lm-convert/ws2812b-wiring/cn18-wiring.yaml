@@ -1,0 +1,238 @@
+connectors:
+  CN18:
+    type: PHDR-16VS
+    pincount: 16
+    pins: [16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1]
+    pinlabels:
+      [
+        " "," "," "," "," ",
+        5V IN,
+        " ",
+        GND,
+        2P SIDE PILLAR,
+        1P SIDE PILLAR,
+        TP SIDE LED,
+        UPPER LED,
+        COMPANE LED,
+        2P CABINET LED,
+        1P CABINET LED,
+        STAGE TAPE LED,
+      ]
+  TAPE_LED_PSU:
+    type: XADR-20V
+    pincount: 20
+    #pins: [20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1]
+    additional_components:
+      - 
+        type: SXA-001T-P0.6 terminals
+        qty_multiplier: populated
+    pinlabels:
+      [
+        5V,5V,5V,5V,5V,5V,5V,5V,5V,
+        GND,GND,GND,GND,GND,GND,GND,GND,GND,
+        " ", " ",
+      ]
+
+  TAPE_LED_BIO2:
+    type: XADRP-20V
+    pincount: 20
+    #pins: [20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1]
+    additional_components:
+      - 
+        type: SXAM-001T-P0.6 terminals
+        qty_multiplier: populated
+    pinlabels:
+      [
+        5V,5V,5V,5V,5V,5V,5V,5V,5V,
+        GND,GND,GND,GND,GND,GND,GND,GND,GND,
+        " ", " ",
+      ]
+  5V_PSU:
+    type: MEAN WELL LRS-100-5
+    pins: [7,6,5,4,3,2,1]
+    #pinlabels: [L, R, GND, -5V, -5V, +5V, +5V]
+    pinlabels: [+5V, +5V, -5V, -5V, GND, R, L]
+  LED: 
+    type: JST SM 3pin
+    #pins: [3,2,1]
+    pinlabels: [Vin, DI, GND]
+
+cables:
+  PSU_WIRES:
+    color_code: DIN
+    gauge: 26 AWG
+    wirecount: 18
+    colors: 
+      [
+        RD,RD,RD,RD,RD,RD,RD,RD,RD,
+        BK,BK,BK,BK,BK,BK,BK,BK,BK,
+      ]
+
+  BIO2_WIRES:
+    color_code: DIN
+    gauge: 26 AWG
+    wirecount: 2
+    notes: |
+      Diagram generation error,
+      these cables should go to the right hand side
+      of both CN18 and LED_TAPE_BIO2 connectors
+    colors: [RD,BK]
+  LED_WIRES:
+    color_code: DIN
+    gauge: 26 AWG
+    colors: [RD, GN, BK]
+  LED_WIRES_BUNDLE:
+    color_code: DIN
+    gauge: 26 AWG
+    wirecount: 24
+    colors: [RD, GN, BK]
+
+connections:
+  - 
+    - BIO2_WIRES: [1,2]
+    - CN18: [11,9]
+  -
+    - BIO2_WIRES: [1,2]
+    - TAPE_LED_BIO2: [1,10]
+    
+  -
+    - 5V_PSU: [6,6,6,6,6,6,6,6,6]
+    - PSU_WIRES: [1-9]
+    - TAPE_LED_PSU: [1-9]
+
+  -
+    - 5V_PSU: [3,3,3,3,3,3,3,3,3]
+    - PSU_WIRES: [10-18]
+    - TAPE_LED_PSU: [10-18]
+
+  #- 
+  #  - CN18: [1-8]
+  #  - LED_WIRES_BUNDLE: [2,5,8,11,14,17,20,23]
+  #- 
+  #  - TAPE_LED_BIO2: [2-9]
+  #  - LED_WIRES_BUNDLE: [1,4,7,10,13,16,19,22]
+  #- 
+  #  - TAPE_LED_BIO2: [11-18]
+  #  - LED_WIRES_BUNDLE: [3,6,9,12,15,18,21,24]
+
+  -
+    - TAPE_LED_PSU
+    - <==>
+    - TAPE_LED_BIO2
+  
+  # PILLAR 2P
+  - 
+    - CN18: 8
+    - LED_WIRES.PILLAR_2PW: 2
+    - LED.PILLAR_2P: 2
+
+  - 
+    - TAPE_LED_BIO2: [9,18]
+    - LED_WIRES.PILLAR_2PW: [1,3]
+    - LED.PILLAR_2P: [1,3]
+  #-
+  #  - LED_WIRES_BUNDLE: [22-24]
+  #  - LED.PILLAR_2P: [1-3]
+
+  # PILLAR 1P
+  - 
+    - CN18: 7
+    - LED_WIRES.PILLAR_1PW: 2
+    - LED.PILLAR_1P: 2
+
+  - 
+    - TAPE_LED_BIO2: [8,17]
+    - LED_WIRES.PILLAR_1PW: [1,3]
+    - LED.PILLAR_1P: [1,3]
+  #-
+  #  - LED_WIRES_BUNDLE: [19-21]
+  #  - LED.PILLAR_1P: [1-3]
+
+  # TP_SIDE
+  - 
+    - CN18: 6
+    - LED_WIRES.TP_SIDEW: 2
+    - LED.TP_SIDE: 2
+
+  - 
+    - TAPE_LED_BIO2: [7,16]
+    - LED_WIRES.TP_SIDEW: [1,3]
+    - LED.TP_SIDE: [1,3]
+  #-
+  #  - LED_WIRES_BUNDLE: [16-18]
+  #  - LED.TP_SIDE: [1-3]
+
+  # UPPER
+  - 
+    - CN18: 5
+    - LED_WIRES.UPPERW: 2
+    - LED.UPPER: 2
+
+  - 
+    - TAPE_LED_BIO2: [6,15]
+    - LED_WIRES.UPPERW: [1,3]
+    - LED.UPPER: [1,3]  
+  #-
+  #  - LED_WIRES_BUNDLE: [13-15]
+  #  - LED.UPPER: [1-3]
+
+  # COMP
+  - 
+    - CN18: 4
+    - LED_WIRES.COMPW: 2
+    - LED.COMP: 2
+
+  - 
+    - TAPE_LED_BIO2: [5,14]
+    - LED_WIRES.COMPW: [1,3]
+    - LED.COMP: [1,3]  
+  #-
+  #  - LED_WIRES_BUNDLE: [10-12]
+  #  - LED.COMP: [1-3]
+
+  # SIDE 2P
+  - 
+    - CN18: 3
+    - LED_WIRES.SIDE_2PW: 2
+    - LED.SIDE_2P: 2
+
+  - 
+    - TAPE_LED_BIO2: [4,13]
+    - LED_WIRES.SIDE_2PW: [1,3]
+    - LED.SIDE_2P: [1,3]
+  #-
+  #  - LED_WIRES_BUNDLE: [7-9]
+  #  - LED.SIDE_2P: [1-3]
+
+  # SIDE 1P
+  - 
+    - CN18: 2
+    - LED_WIRES.SIDE_1PW: 2
+    - LED.SIDE_1P: 2
+
+  - 
+    - TAPE_LED_BIO2: [3,12]
+    - LED_WIRES.SIDE_1PW: [1,3]
+    - LED.SIDE_1P: [1,3]
+  #-
+  #  - LED_WIRES_BUNDLE: [4-6]
+  #  - LED.SIDE_1P: [1-3]
+
+  # BASS
+  - 
+    - CN18: 1
+    - LED_WIRES.BASSW: 2
+    - LED.BASS: 2
+  
+  - 
+    - TAPE_LED_BIO2: [2,11]
+    - LED_WIRES.BASSW: [1,3]
+    - LED.BASS: [1,3]
+  #-
+  #  - LED_WIRES_BUNDLE: [1-3]
+  #  - LED.BASS: [1-3]
+
+tweak:
+  override: 
+    graph:  
+      ranksep: '6'

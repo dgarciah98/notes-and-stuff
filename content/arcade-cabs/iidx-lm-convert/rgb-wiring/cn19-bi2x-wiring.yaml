@@ -1,0 +1,65 @@
+connectors:
+  IO_1P:
+    type: XADRP-28V
+    pincount: 28
+    notes: Goes to relay board
+    pins: [...,17,18,19,20,....,24,25,26,27,28]
+
+  IO_2P:
+    type: XADRP-30V
+    pincount: 30
+    notes: Goes to relay board
+    pins: [...,17,18,19,20,....,24,25,26,.....]
+  
+  IC/W_LED:
+    type: XADR-12V
+    pincount: 12
+    notes: Color signal wires for IC and woofer LEDs
+    pins: [...,10,11,12]
+    
+  CN19:
+    type: PHDR-20VS
+    pincount: 20
+    pinlabels: [WOOFER LED B, 1P TT LED R, 1P TT LED G, 1P TT LED B, 2P TT LED R, 2P TT LED G, 2P TT LED B, SENSOR LL, SENSOR LR, SENSOR RL, SENSOR RR, "","","","",GND,GND,+5V,+12V,+12V]
+
+
+cables:
+  CN19_IO_1P_WIRES:
+    color_code: DIN
+    colors: [YE,BN,GN,BK,PK,GN,BU,]
+  CN19_IO_2P_WIRES:
+    color_code: DIN
+    colors: [YE,BU,VT,BK,PK,GN,BU,]
+  CN19_IC/W_WIRES:
+    color_code: DIN
+    colors: [BU]
+
+connections:
+  -
+    - IO_1P: [24-26]
+    - CN19_IO_1P_WIRES: [5-7]
+    - CN19: [2-4]
+  -
+    - IO_1P: [17,20]
+    - CN19_IO_1P_WIRES: [1,4]
+    - CN19: [16,18]
+  -
+    - IO_1P: [18,19]
+    - CN19_IO_1P_WIRES: [2,3]
+    - CN19: [8,9]
+  -
+    - IO_2P: [24-26]
+    - CN19_IO_2P_WIRES: [5-7]
+    - CN19: [5-7]
+  -
+    - IO_2P: [17,20]
+    - CN19_IO_2P_WIRES: [1,4]
+    - CN19: [16,18]
+  -
+    - IO_2P: [18,19]
+    - CN19_IO_2P_WIRES: [2,3]
+    - CN19: [10,11]
+  -
+    - IC/W_LED: [10]
+    - CN19_IC/W_WIRES
+    - CN19

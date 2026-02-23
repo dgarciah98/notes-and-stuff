@@ -1,0 +1,32 @@
+connectors:
+  CN15_EXT:
+    type: XMR-08V
+    pincount: 8
+    notes: Same as original CN15 cable
+    pinlabels: [GND, SW2 (1P), SW3 (1P), SW4 (1P), SW5 (1P), SW6 (1P), SW7 (1P), IN16]
+    additional_components:
+      - 
+        type: SXM-001T-P0.6 terminals
+        qty_multiplier: populated
+  CN15:
+    type: PHDR-26VS
+    pincount: 26
+    pinlabels: [GND, SW2 (1P), SW3 (1P), SW4 (1P), SW5 (1P), SW6 (1P), SW7 (1P), IN16, "", HP DETECT 1P, HP DETECT 2P, REC DETECT 1P, REC DETECT 2P, "", "", "", "", "", "", "", GND]
+    pins: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,...,21,22,....,26]
+    loops: [[10,21], [11,21], [12,21], [13,21]]
+    notes: |
+      HP pins are shorted to GND 
+      in order to activate headphones
+      REC pins are not used
+
+cables:
+  CN15_WIRES:
+    color_code: DIN
+    gauge: 26 AWG
+    colors: [BK, GN, BU, VT, GY, WH, PK, GN]
+
+connections:
+  -
+    - CN15_EXT: [1-8]
+    - CN15_WIRES: [1-8]
+    - CN15: [1-8]

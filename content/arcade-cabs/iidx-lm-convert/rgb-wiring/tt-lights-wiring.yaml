@@ -1,0 +1,114 @@
+connectors:
+  DC_OUT:
+    type: VLP-04V
+    pincount: 4
+    notes: Alternatively a molex may be used instead
+    pinlabels: [+12V, GND, GND, +5V]
+  CN19:
+    type: PHDR-20VS
+    pincount: 20
+    pinlabels:
+      [
+        WOOFER LED B,
+        1P TT LED R,
+        1P TT LED G,
+        1P TT LED B,
+        2P TT LED R,
+        2P TT LED G,
+        2P TT LED B,
+        SENSOR LL,
+        SENSOR LR,
+        SENSOR RL,
+        SENSOR RR,
+        "",
+        "",
+        "",
+        "",
+        GND,
+        GND,
+        +5V,
+        +12V,
+        +12V,
+      ]
+  RGB_LED:
+    type: XMR-05V
+    pins: [5,4,3,2,1]
+    additional_components:
+      - 
+        type: SXM-001T-P0.6 terminals
+        qty_multiplier: populated
+  RGB_BIO2:
+    type: XMP-05V
+    pins: [5,4,3,2,1]
+    additional_components:
+      - 
+        type: SXA-001T-P0.6 terminals
+        qty_multiplier: populated
+  LED: 
+    type: PHR-5
+    pinlabels: [GND, BLUE, GREEN, RED, Vin]
+    pins: [5,4,3,2,1]
+  TT_CONN:
+    type: B20B-PHDSS
+    pincount: 20
+    pins: [...,7,8,9,10,11,12,13,14,15,16,....]
+    notes: |
+      Could not find a "female"
+      connector for PHDR-20VS,
+      so I used the board socket
+
+cables:
+  RGB_WIRES:
+    color_code: DIN
+    gauge: 22 AWG
+    wirecount: 5
+    length: 115 cm
+    colors: [YE, RD, GN, BU, BK]
+  LED_WIRES:
+    color_code: DIN
+    gauge: 22 AWG
+    wirecount: 5
+    colors: [BK, BU, GN, RD, YE]
+  TT_WIRES:
+    color_code: DIN
+    gauge: 22 AWG
+    wirecount: 5
+    colors: [WH, WH, WH, WH, BK]
+
+connections:
+  - 
+    - LED.TT_LED1: [1-5]
+    - LED_WIRES.TT_LED_W1: [5-1]
+    - RGB_LED.TT_RGB_LED1: [1-5]
+
+  - 
+    - RGB_LED.TT_RGB_LED1
+    - <=>
+    - RGB_BIO2.TT_RGB_BIO21: [2-4]
+    - RGB_WIRES.TT_RGB_W1: [2-4]
+    - CN19: [2-4]
+
+  - 
+    - LED.TT_LED2: [1-5]
+    - LED_WIRES.TT_LED_W2: [5-1]
+    - RGB_LED.TT_RGB_LED2: [1-5]
+
+  - 
+    - RGB_LED.TT_RGB_LED2
+    - <=>
+    - RGB_BIO2.TT_RGB_BIO22: [2-4]  
+    - RGB_WIRES.TT_RGB_W2: [2-4]
+    - CN19: [5-7]
+
+  - - RGB_BIO2.TT_RGB_BIO21: [1,5]  
+    - RGB_WIRES.TT_RGB_W1: [1,5]
+    - DC_OUT: [1,2]
+
+  - - RGB_BIO2.TT_RGB_BIO22: [1,5]  
+    - RGB_WIRES.TT_RGB_W2: [1,5]
+    - DC_OUT: [1,2]
+
+  - - TT_CONN: [8-11,16]
+    - TT_WIRES: [1-5]
+    - CN19: [8-11,16]
+  

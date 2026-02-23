@@ -17,7 +17,7 @@ const config: QuartzConfig = {
     },
     locale: "en-US",
     baseUrl: "dgarciah98.github.io/notes-and-stuff",
-    ignorePatterns: ["private", "templates", ".obsidian", "**/iidx-epolis-upgrade/iidx-epolis-upgrade.md", "**/popn-music-animelo-reader/popn-music-animelo-reader.md", "**/arcade-cabs.md", "**/img.md", "**/exclude.md", "**/iidx-lm-convert.md", "**/convert.md", "**/bio2.md"],
+    ignorePatterns: ["private", "templates", ".obsidian", "**/iidx-epolis-upgrade/iidx-epolis-upgrade.md", "**/popn-music-animelo-reader/popn-music-animelo-reader.md", "**/arcade-cabs.md", "**/img.md", "**/exclude.md", "**/convert.md", "**/bio2.md", "**/audio-jack/audio-jack.md", "**/rgb-wiring/rgb-wiring.md", "**/ws2812b-wiring/ws2812b-wiring.md", "**/iidx-lm-convert.md"],
     defaultDateType: "modified",
     theme: {
       fontOrigin: "googleFonts",

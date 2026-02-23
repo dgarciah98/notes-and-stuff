@@ -1,0 +1,36 @@
+connectors:
+  JACK:
+    type: XMR-05V
+    pincount: 5
+    notes: Goes to headphone amplifier
+  IO_1P:
+    type: XADR-28V
+    pincount: 28
+    notes: Goes to relay board
+    pins: ["...",10,11,12,13,14,15,"...."]
+
+  CN15:
+    type: PHDR-26VS
+    pincount: 26
+    pinlabels: ["", "", SW2 (1P), SW3 (1P), SW4 (1P), SW5 (1P), SW6 (1P), SW7 (1P), "", HP DETECT 1P, HP DETECT 2P, REC DETECT 1P, REC DETECT 2P, "", "", GND]
+    pins: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,"...",21,22,"....",26]
+
+cables:
+  CN15_BI2X_WIRES:
+    color_code: DIN
+    colors: [GN, BU, VT, GY, WH, PK]
+  
+  JACK_WIRES:
+    color_code: DIN
+    colors: [GN, BU, VT, GY, BK]
+
+
+connections:
+  -
+    - IO_1P: [10-15]
+    - CN15_BI2X_WIRES: [1-6]
+    - CN15: [3-8]
+
+  - - JACK: [1-5]
+    - JACK_WIRES: [1-5]
+    - CN15: [10-13,21]

@@ -1,0 +1,23 @@
+connectors:
+  CN15_EXT:
+    type: XMR-08V
+    pincount: 8
+    notes: Goes to relay board
+    pinlabels: [GND, SW2 (1P), SW3 (1P), SW4 (1P), SW5 (1P), SW6 (1P), SW7 (1P), IN16]
+
+  CN15:
+    type: PHDR-26VS
+    pincount: 26
+    pinlabels: [GND, SW2 (1P), SW3 (1P), SW4 (1P), SW5 (1P), SW6 (1P), SW7 (1P), IN16]
+    pins: [1,2,3,4,5,6,7,8,9,"...",26]
+
+cables:
+  CN15_BI2A_WIRES:
+    color_code: DIN
+    colors: [BK, GN, BU, VT, GY, WH, PK, GN]
+
+connections:
+  -
+    - CN15_EXT: [1-8]
+    - CN15_BI2A_WIRES: [1-8]
+    - CN15: [1-8]

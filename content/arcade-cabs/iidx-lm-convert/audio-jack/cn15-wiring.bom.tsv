@@ -1,0 +1,4 @@
+Id	Description	Qty	Unit	Designators
+1	Cable, 8 x 26 AWG	0	m	CN15_WIRES
+2	Connector, PHDR-26VS, 26 pins	1		CN15
+3	Connector, XMR-08V, 8 pins	1		CN15_EXT

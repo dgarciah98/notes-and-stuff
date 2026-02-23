@@ -1,6 +1,6 @@
 ---
 sticker: emoji//1f354
-title: pop'n music Animelo cab Reader Setup
+title: 🍔 pop'n music Animelo cab Reader Setup
 aliases:
   - pop'n music Animelo Reader
 description: Related documentation for setting up an IC reader for a pop’n music Type-A (Animelo) cabinet
@@ -16,7 +16,7 @@ These cabinets may have the reader already set up if they come with the pillar r
 
 Feel free to DM me in Discord if you have questions: @elmiamiman
 ## Reader Wiring
-> [!important]- Bill Of Materials 
+> [!check]- Bill Of Materials 
 > - #### CN2: 
 > 	- PHR-3:
 > 		- Harness (male connector):  https://es.aliexpress.com/item/1005008864177105.html

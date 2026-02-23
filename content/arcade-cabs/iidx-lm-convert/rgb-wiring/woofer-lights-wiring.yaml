@@ -1,0 +1,106 @@
+connectors:
+  DC_OUT:
+    type: VLP-04V
+    pincount: 4
+    notes: Alternatively a molex may be used instead
+    pinlabels: [+12V, GND, GND, +5V]
+  CN10:
+    type: XADRP-18V
+    pincount: 18
+    notes: CCJ connector is external
+    pins: [1,2,3,4,5,6,7,8,9,...]
+    pinlabels:
+      [
+        1P IC LED R,
+        1P IC LED G,
+        1P IC LED B,
+        2P IC LED R,
+        2P IC LED G,
+        2P IC LED B,
+        WOOFER LED R,
+        WOOFER LED G,
+      ]
+  CN19:
+    type: PHDR-20VS
+    pincount: 20
+    pinlabels:
+      [
+        WOOFER LED B,
+        1P TT LED R,
+        1P TT LED G,
+        1P TT LED B,
+        2P TT LED R,
+        2P TT LED G,
+        2P TT LED B,
+        SENSOR LL,
+        SENSOR LR,
+        SENSOR RL,
+        SENSOR RR,
+        "",
+        "",
+        "",
+        "",
+        GND,
+        GND,
+        +5V,
+        +12V,
+        +12V,
+      ]
+  IC/W_LED:
+    type: XADRP-12V
+    pincount: 12
+    #pins: [12,11,10,9,8,7,6,5,4,3,2,1]
+    additional_components:
+      - 
+        type: SXA-001T-P0.6 terminals
+        qty_multiplier: populated
+  IC/W_BIO2:
+    type: XADR-12V
+    pincount: 12
+    #pins: [12,11,10,9,8,7,6,5,4,3,2,1]
+    additional_components:
+      - 
+        type: SXAM-001T-P0.6 terminals
+        qty_multiplier: populated
+  LED: 
+    type: PHR-5
+    pinlabels: [GND, BLUE, GREEN, RED, Vin]
+    pins: [5,4,3,2,1]
+
+cables:
+  IC/W_LED_WIRES:
+    color_code: DIN
+    gauge: 22 AWG
+    colors: [BK, RD, GN, BU, YE]
+    notes: +12V and GND might be taken from DC OUT using a molex connector
+  LED_WIRES:
+    color_code: DIN
+    gauge: 22 AWG
+    wirecount: 5
+    colors: [BK, BU, GN, RD, YE]
+
+connections:
+  - - IC/W_BIO2: 10
+    - IC/W_LED_WIRES: 4
+    - CN19: 1
+
+  - - LED.WOOFER_LED2: [1-5]
+    - LED_WIRES.WOOFER_LED_W2: [5-1]
+    - IC/W_LED: [11,8-10,1]
+
+  - - LED.WOOFER_LED1: [1-5]
+    - LED_WIRES.WOOFER_LED_W1: [5-1]
+    - IC/W_LED: [11,8-10,1]
+ 
+  - - IC/W_LED
+    - <=>
+    - IC/W_BIO2
+ 
+  - - IC/W_BIO2: [8-9]
+    - IC/W_LED_WIRES: [2-3]
+    - CN10: [7-8]
+
+  - - IC/W_BIO2: [1,11]
+    - IC/W_LED_WIRES: [1,5]
+    - DC_OUT: [2,1]
+  

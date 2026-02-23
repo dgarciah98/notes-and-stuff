@@ -11,13 +11,13 @@ tags:
 ---
 # Lightning Convert with Tricoro Cab
 > [!NOTE] Further documentation
-> You might want check out KokoseiJ's guide for further documentation and details, especially for older IIDX cabinet versions:
+> You might want check out @kokoseij's guide for further documentation and details, especially for older IIDX cabinet versions:
 > > [!tip] [IIDX Gender Affirmation Surgery Guide](https://docs.google.com/document/d/e/2PACX-1vSbuydsZMF6iAVXuimRPdbduLPOiN8MXTouWZ5hBh0vGj5idvvYUR7WGNZ7ItnZblYWnQOS1VakZ567/pub "https://docs.google.com/document/d/e/2PACX-1vSbuydsZMF6iAVXuimRPdbduLPOiN8MXTouWZ5hBh0vGj5idvvYUR7WGNZ7ItnZblYWnQOS1VakZ567/pub")
 > 
-> Big shout out the Rhythm Game Cabs Discord server which is where I've gathered most of this info
+> Big shout out the Rhythm Game Cabs Discord server which is where I've gathered most of this info.
 
 > [!info] Regarding cabinet
-> This was done on a beatmania IIDX Tricoro cabinet
+> This was done on a beatmania IIDX Tricoro cabinet.
 
 This will be a continuation from a previous guide where I upgraded a IIDX Tricoro cabinet with a CCJ PCB in order to be able to play versions from RESIDENT and beyond. You may catch up with that guide first[^1].
 
@@ -67,7 +67,7 @@ The screen will be connected to the graphic's card DisplayPort. If your screen o
 Any touch screen with covers the characteristics above should be enough.
 In my case I got this one from Aliexpress, as a cheaper option: https://aliexpress.com/item/1005007445019329.html
 
-Additionaly a mount for the touch screen is ideal to keep it in place. I used the one made for this guide: https://www.printables.com/model/1362898-beatmania-iidx-lightning-model-upgrade-parts/comments
+Additionaly a mount for the touch screen is ideal to keep it in place. I used the one made for this guide by @kursain: https://www.printables.com/model/1362898-beatmania-iidx-lightning-model-upgrade-parts/comments
 
 This mount sits over the sliders, hiding them completely, and it's held from behind the front panel, having to remove the sliders PCB previously, although it also stays over the Effect and VEFX buttons. The same guide also provides a printable model for replacing the Insert Coin plate with a piece which holds both buttons.
 

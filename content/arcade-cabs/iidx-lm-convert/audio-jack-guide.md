@@ -5,6 +5,9 @@ alias:
 description: Audio Jack wiring diagrams and planification for LM convert
 sticker: emoji//1f3a7
 date: 2026-02-21
+tags:
+  - arcade-cabs
+  - lm-convert
 ---
 > [!warning] WIP
 > - Audio cables not yet tested

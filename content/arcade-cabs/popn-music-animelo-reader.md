@@ -4,6 +4,8 @@ title: pop'n music Animelo cab Reader Setup
 aliases:
   - pop'n music Animelo Reader
 description: Related documentation for setting up an IC reader for a pop’n music Type-A (Animelo) cabinet
+tags:
+  - arcade-cabs
 ---
 <div align="center">
     <img src="popn-music-animelo-reader/img/banner.png" style="width: 100%" />

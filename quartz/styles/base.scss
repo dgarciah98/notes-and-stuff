@@ -159,6 +159,26 @@ a {
   }
 }
 
+.page-title {
+  font-size: 1.75rem;
+  margin: 0;
+  font-family: var(--titleFont);
+  @media ($mobile) {
+    align-self: center;    
+  }
+}
+
+.box {
+  display: flex;
+  @media all and not ($mobile) {
+    flex-direction: column;
+  } 
+
+  @media ($mobile) {
+    align-items: center;
+  }
+}
+
 .page {
   max-width: calc(#{map.get($breakpoints, desktop)} + 300px);
   margin: 0 auto;
@@ -241,6 +261,16 @@ a {
         flex-direction: row;
         padding: 0;
         padding-top: 2rem;
+      }
+
+      @media ($mobile) {
+        position: initial;
+        height: unset;
+        flex-direction: column;
+        align-items: stretch;
+        gap: 0;
+        padding: 2rem 0 0;
+        display: flex;
       }
     }
 

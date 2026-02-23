@@ -5,6 +5,9 @@ alias:
 description: RGB lights wiring diagrams and planification for LM convert
 sticker: emoji//1f6a5
 date: 2026-02-20
+tags:
+  - arcade-cabs
+  - lm-convert
 ---
 > [!warning] WIP
 > - Woofer LED harness not installed yet

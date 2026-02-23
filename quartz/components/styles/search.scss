@@ -7,6 +7,11 @@
     flex-grow: 0.3;
   }
 
+  @media ($mobile) {
+    max-width: stretch;
+    
+  }
+
   & > .search-button {
     background-color: transparent;
     border: 1px var(--lightgray) solid;

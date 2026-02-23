@@ -3,6 +3,8 @@ title: Arcade Cabinets DIY projects
 aliases:
   - Arcade Cabinets DIY projects
 description: Notes related to arcade cabinet DIY projects, mostly rhythm game ones, with documentation of the processes and work I've done along with images.
+tags:
+  - arcade-cabs
 ---
 Notes related to arcade cabinet DIY projects, mostly rhythm game ones, with documentation of the processes and work I've done along with images.
 

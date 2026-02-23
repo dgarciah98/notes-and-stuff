@@ -5,6 +5,9 @@ alias:
 description: WS2812b lights wiring diagrams and planification for LM convert
 sticker: emoji//1f6a8
 date: 2026-02-19
+tags:
+  - arcade-cabs
+  - lm-convert
 ---
 > [!warning] WIP
 

@@ -4,6 +4,8 @@ title: IIDX EPOLIS upgrade
 aliases:
   - IIDX EPOLIS upgrade with CCJ PCB
 description: Small guide about the process of upgrading a beatmania IIDX Tricoro cabinet to be able to run EPOLIS with a CCJ PCB
+tags:
+  - arcade-cabs
 ---
 >[!tip] Mirror: https://rentry.co/iidx-epolis-ccj-upgrade
 

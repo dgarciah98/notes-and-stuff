@@ -10,26 +10,20 @@ const PageTitle: QuartzComponent = ({ fileData, cfg, displayClass }: QuartzCompo
   const iconPath = joinSegments(baseDir, "static/logo.png")
   return (
     <h2 class={classNames(displayClass, "page-title")}>
-	   <a href={baseDir}>
+	   <a href={baseDir} class="box">
 		  <img class="logo" src={iconPath} alt="goodvibes" />
-	      {title}
+      <span>{title}</span>
 	   </a>
     </h2>
   )
 }
 
 PageTitle.css = `
-.page-title {
-  font-size: 1.75rem;
-  margin: 0;
-  font-family: var(--titleFont);
-}
 .logo {
-max-heigh: 200px;
-min-height: 50px;
-max-width: 200px;
-min-width: 50px;
+max-width: 30vmin;
+width: 10vmax;
 margin: 0;
+display: block;
 }
 `
 

@@ -8,7 +8,7 @@ export const sharedPageComponents: SharedLayout = {
   afterBody: [],
   footer: Component.Footer({
     links: {
-      GitHub: "https://github.com/dgarciah98/notes-and-stuff"
+      "GitHub Repository": "https://github.com/dgarciah98/notes-and-stuff"
     },
   }),
 }
@@ -42,10 +42,11 @@ export const defaultContentPageLayout: PageLayout = {
     Component.Explorer(),
   ],
   right: [
-    Component.ConditionalRender({
-	component: Component.Graph(),
-	condition: (page) => page.fileData.slug === "index",
-    }),
+    //Component.ConditionalRender({
+	//component: Component.Graph(),
+	//condition: (page) => page.fileData.slug === "index",
+    //}),
+    Component.Graph({localGraph: {scale: 0.8}}),
     Component.DesktopOnly(Component.TableOfContents()),
     Component.Backlinks(),
   ],
@@ -71,5 +72,6 @@ export const defaultListPageLayout: PageLayout = {
   right: [
 	Component.TableOfContents(),
 	Component.Backlinks(),
+  Component.Graph(),
   ],
 }

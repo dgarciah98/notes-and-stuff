@@ -5,6 +5,9 @@ alias:
   - 1. IIDX LM Convert
 description: Notes and documentation for the conversion of a beatmania IIDX cabinet to Lightning Model
 date: 2026-02-22
+tags:
+  - arcade-cabs
+  - lm-convert
 ---
 # Lightning Convert with Tricoro Cab
 > [!NOTE] Further documentation
@@ -16,7 +19,7 @@ date: 2026-02-22
 > [!info] Regarding cabinet
 > This was done on a beatmania IIDX Tricoro cabinet
 
-This will be a continuation from a previous guide where I upgraded a IIDX Tricoro cabinet with a CCJ PCB in order to be able to play versions from RESIDENT and beyond. You may catch up with that guide first[^1]:
+This will be a continuation from a previous guide where I upgraded a IIDX Tricoro cabinet with a CCJ PCB in order to be able to play versions from RESIDENT and beyond. You may catch up with that guide first[^1].
 
 Here I've tried to document and cover the upgrade of a IIDX Tricoro cabinet to a 120Hz/LM convert cabinet, with the addition of installing LED lights like in LM cabinets, as well as rewiring the existing leds for the turntables and woofers to light the same way as LM cabinets (RGB light depending on game) and also adding lights for IC readers. All done while keeping the cabinet's furniture completely intact.
 

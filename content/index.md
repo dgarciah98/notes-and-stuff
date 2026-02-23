@@ -2,7 +2,7 @@
 title: 📝 Notes and stuff
 aliases:
   - Home
-Description: Personal notes made in Obsidian that I feel ok to share
+description: Personal notes made in Obsidian that I feel ok to share
 ---
 Here I will share some notes made in [Obsidian](https://obsidian.md) where I try to document and develop some of my personal projects at first, what I may upload here in the future is uncertain.
 

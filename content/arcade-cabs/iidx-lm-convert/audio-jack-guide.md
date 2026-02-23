@@ -1,5 +1,5 @@
 ---
-title: 🎧 Audio Jack wiring
+title: Audio Jack wiring
 alias:
   - 2. Audio Jack wiring
 description: Audio Jack wiring diagrams and planification for LM convert

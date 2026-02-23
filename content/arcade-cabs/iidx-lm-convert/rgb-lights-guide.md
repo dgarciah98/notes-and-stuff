@@ -1,5 +1,5 @@
 ---
-title: 🚥 RGB Lights wiring
+title: RGB Lights wiring
 alias:
   - 3. RGB Lights wiring
 description: RGB lights wiring diagrams and planification for LM convert

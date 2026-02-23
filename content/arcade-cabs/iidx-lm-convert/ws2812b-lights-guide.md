@@ -1,5 +1,5 @@
 ---
-title: 🚨 WS2812b Lights wiring
+title: WS2812b Lights wiring
 alias:
   - 4. WS2812b Lights wiring
 description: WS2812b lights wiring diagrams and planification for LM convert

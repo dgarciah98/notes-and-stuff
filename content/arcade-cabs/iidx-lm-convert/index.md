@@ -1,6 +1,6 @@
 ---
 sticker: emoji//26a1
-title: ⚡ IIDX LM Convert
+title: IIDX LM Convert
 alias:
   - IIDX LM Convert
 description: IIDX LM Conversion guide, with documentation and diagrams for each aspect of the process

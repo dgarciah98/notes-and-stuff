@@ -1,6 +1,6 @@
 ---
 sticker: emoji//1f354
-title: 🍔 pop'n music Animelo cab Reader Setup
+title: pop'n music Animelo cab Reader Setup
 aliases:
   - pop'n music Animelo Reader
 description: Related documentation for setting up an IC reader for a pop’n music Type-A (Animelo) cabinet
@@ -9,7 +9,6 @@ description: Related documentation for setting up an IC reader for a pop’n mus
     <img src="popn-music-animelo-reader/img/banner.png" style="width: 100%" />
 </div>
 
-# Installing reader in pop'n music Type-A (Animelo) cabinet
 This is a small, probably not very well developed guide showing how to set up an original Konami IC reader for a pop'n music Type-A (Animelo) cabinet.
 
 These cabinets may have the reader already set up if they come with the pillar reader, otherwise you can work it this way if you want to install it.

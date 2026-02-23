@@ -1,6 +1,6 @@
 ---
 sticker: emoji//26a1
-title: ⚡ IIDX LM Convert Guide
+title: IIDX LM Convert Guide
 alias:
   - 1. IIDX LM Convert
 description: Notes and documentation for the conversion of a beatmania IIDX cabinet to Lightning Model

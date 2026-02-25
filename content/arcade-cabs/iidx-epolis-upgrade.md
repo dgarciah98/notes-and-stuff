@@ -13,7 +13,7 @@ This is a little guide where I've documented the most notable parts of the Epoli
 
 Feel free to DM me in Discord if you have questions: @elmiamiman
 > [!NOTE] Further documentation
-> You can also follow this guide as it may be more comprehensive: 
+> You can also follow this guide by @epixyl as it may be more comprehensive: 
 > > [!tip] [IIDX LDJ DIY Upgrade Kit Installation](https://docs.google.com/document/d/1i4etnZGyecHbVvoRPkY14CLfO-HF48YDg5liX45Ui2A/edit?tab=t.0#heading=h.m8ozwkt8m7wu)
 > 
 > Big shout out the Rhythm Game Cabs Discord server which is where I've gathered most of this info

@@ -133,7 +133,7 @@ Following the [[#RGB Lights wiring outline|main outline]] the relay board is com
 
 ![[rgb-wiring/woofer-lights-wiring.svg]]
 > [!hint] Check CN10 very carefully
-> Apparently the connector for CN10 on the outer side is **inverted** compared to how it comes out from the CN10 on BIO2 and how it is shown in the diagram above. So when making the harness take in mind the position of the connector and pay attention to which pins to the wires go from the CN10 connector on the BIO2 to the connector outside the PCB.
+> Apparently the connector for CN10 on the outer side is **inverted** compared to how it comes out from the CN10 on BIO2 and how it is shown in the diagram above. So when making the harness take in mind the position of the connector and pay attention to which pins do the wires go from the CN10 connector on the BIO2 to the connector outside the PCB.
 > 
 > In my case after making the harness it ended up looking like this:
 > ![[rgb-wiring/cn10-wired.jpg]]

@@ -56,8 +56,10 @@ tags:
 > - Yellow: PILLAR_2P 
 
 ![[ws2812b-wiring/lightning-leds-outline.png]]
+*LM WS2812b LEDs outline*
 ## Legacy outline (theory)
 ![[ws2812b-wiring/iidx-legacy-leds-outline.JPG]]
+*Tricoro cabinet outline of the setup for the WS2812b LEDs*
 ## CN18
 ### WS2812b lights wiring outline 
 ![[ws2812b-wiring/cn18-wiring.svg]]

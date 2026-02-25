@@ -46,7 +46,11 @@ Other cabinet models will need ICCC readers (called "blue readers") and a rewiri
 Also you will need to put back the original turntable teeth discs, or at least some discs that have 72 teeth instead of 144, and with it's original mounts if you changed them for the same mod, since BI2X firmware reads half pulse and it results in having the same sensibility as having a 144 teeth disc on LDJ.
 
 Instead of using the original aluminium discs I've used 3D printed discs. Design made by @roxandtol: [https://www.printables.com/model/1525394-iidx-turntable-tooth-wheel](https://www.printables.com/model/1525394-iidx-turntable-tooth-wheel)
-![](convert/tt-disc1.jpg)![](convert/tt-disc2.jpg)
+![[convert/tt-disc1.jpg]]
+*3D printed 72 teeth wheel*
+
+![](convert/tt-disc2.jpg)
+*Comparing the mount for 144 teeth wheels to the original mount*
 
 > TODO: insert more info for older cabinets
 ### Screen
@@ -63,6 +67,7 @@ Some people instead kept the monitor chassis by replacing only the monitor with 
 
 The screen will be connected to the graphic's card DisplayPort. If your screen only has HDMI input, like LG OLED's screens, you might want to get a DP to HDMI converter dongle. I got this one for example: https://amzn.eu/d/0iVZCXwP
 ![](convert/lm-convert-result.jpg)
+*LG OLED C5 42" running*
 ### Touch screen
 Any touch screen with covers the characteristics above should be enough.
 In my case I got this one from Aliexpress, as a cheaper option: https://aliexpress.com/item/1005007445019329.html
@@ -98,7 +103,6 @@ If you want the lights back and also working like in LM, then next up is how I m
 ---
 # [[ws2812b-lights-guide|🚨 WS2812b Lights wiring]]
 ![[ws2812b-lights-guide]]
-# Results
 
 [^1]: [[../iidx-epolis-upgrade|IIDX EPOLIS upgrade with CCJ PCB]] ([Mirror](https://rentry.co/iidx-epolis-ccj-upgrade))
 [^2]: Some more models can be found in [iidx.org](https://iidx.org/infinitas_monitor#tvs).

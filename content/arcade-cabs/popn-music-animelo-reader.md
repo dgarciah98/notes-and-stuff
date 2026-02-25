@@ -37,9 +37,16 @@ According to the manual, this is how IC readers are wired:
 - CN3: Serial signal
 
 ![](popn-music-animelo-reader/img/reader-serial-pinout.png)
+*Serial pinout diagram*
+
 ![](popn-music-animelo-reader/diagrams/reader-wiring.png)
+*Wiring diagram for all related connectors*
+
 ![](popn-music-animelo-reader/img/reader-connectors.png)
+*CN3, CN1 and CN2*
+
 ![](popn-music-animelo-reader/img/wired-reader.png)
+*Wired RS232 connector and voltage connector*
 
 CN3 might just be wired up to a RS232 DB9 connector for ease of use. That same connector will be connected to a DB9 cable that will have to go down the cabinet until the PCB, then connected to the PC's serial connector. A 2 meter cable should be enough length.
 
@@ -69,6 +76,11 @@ For this cabinet the instruction card was replaced with a 3D printed panel where
 The 3D model by @roxandtol on Discord can be found here: https://www.printables.com/model/1509814-popn-animelo-front-panel
 # Results
 ![](popn-music-animelo-reader/img/popn-reader-and-keyboard.jpg)
+*Wired keypad to reader*
+
 ![](popn-music-animelo-reader/img/popn-keyboard-cable.jpg)
 ![](popn-music-animelo-reader/img/popn-front-panel1.png)
+*Keypad with 3D printed mount*
+
 ![](popn-music-animelo-reader/img/popn-front-panel2.png)
+*3D printed mount with totally legit e-amuñement logo*

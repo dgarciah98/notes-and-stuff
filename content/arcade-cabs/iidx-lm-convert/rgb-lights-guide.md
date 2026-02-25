@@ -10,11 +10,10 @@ tags:
   - lm-convert
 ---
 > [!warning] WIP
-> - Woofer LED harness not installed yet
 > - Reader LEDs not installed
 
 >[!tldr] TODO
->- Add results for woofer LEDs
+>- Add pictures of the woofer box insides
 >- Add results for reader LEDs
 
 > [!warning]
@@ -40,16 +39,15 @@ tags:
 >			- Terminals (SXAM-001T-P0.6): https://es.aliexpress.com/item/1005008545737745.html
 >	
 > - #### CN19 (woofer blue light, turntable LEDs and turntable sensor): 
-> 	- PHDR-20VS <- PHDP-20V 
->		- PHDR-20VS:
->			- 22 AWG harness: https://es.aliexpress.com/item/1005008082796097.html
->			- 24 AWG harness: https://es.aliexpress.com/item/1005009363053705.html
->			- Connector: https://es.aliexpress.com/item/1005008735680501.html
->			- Terminals (SPHD-001T-P0.5): https://es.aliexpress.com/item/1005003975795283.html
-> 		- Socket (plug doesn't exist) - B20B-PHDSS:
-> 			- In order to keep it seamless, I'll need to passthrough the existing cable
-> 			- https://es.aliexpress.com/item/1005008318489480.html
-> 			- 26 AWG harness to PHDR-20V (2x10P): https://es.aliexpress.com/item/1005005572943124.html
+>	- PHDR-20VS:
+>		- 22 AWG harness: https://es.aliexpress.com/item/1005008082796097.html
+>		- 24 AWG harness: https://es.aliexpress.com/item/1005009363053705.html
+>		- Connector: https://es.aliexpress.com/item/1005008735680501.html
+>		- Terminals (SPHD-001T-P0.5): https://es.aliexpress.com/item/1005003975795283.html
+> 	- Socket (plug doesn't exist) - B20B-PHDSS:
+> 		- In order to keep it seamless, I'll need to passthrough the existing cable
+> 		- https://es.aliexpress.com/item/1005008318489480.html
+> 		- 26 AWG harness to PHDR-20VS (2x10P): https://es.aliexpress.com/item/1005005572943124.html
 >
 > - #### IC/W LED connector: 
 > 	- XADR-12V -> XADRP-12V
@@ -87,9 +85,6 @@ According to the manual, all grounds are merged to the PSU's ground, therefore y
 ![[rgb-wiring/dc-out.jpg]]
 ## RGB Lights wiring outline
  > [!tldr] Planning
-> - ~~For TT and Woofer LEDs, the original connector that feeds the LED boards is reused to feed both +12V and GND, splicing with a female connector for PHR-5~~
-> - ~~For Reader LEDs, +12V and GND could be taken from CN19 as an option, but the main consideration was to take them from DC OUT (or the PCB's PSU) using a molex~~
-> - The first idea was to take the original connector for the LEDs from the TTs and Woofers and feed +12V and GND from those as the already carry them, and just have the RGB pins wired to the BIO2, but on practice this didn't work.
 > - According to LM's manual, both +12V and GND are taken from DC OUT (PCB's PSU), meaning that all related grounds to RGB LEDs close the circuit in the same ground would need to be connected to the BIO2 and finally the PSU, since the BIO2 also feeds from the PSU. This would be:
 > 	- TT LED colors
 > 	- Woofer LED colors
@@ -129,28 +124,48 @@ Cable length should be atleast the following:
 Following the [[#RGB Lights wiring outline|main outline]] the relay board is completely ignored and cables go directly to the LED boards.
 
 ---
-### Woofer
+### Woofers
 - Woofer RGB connector: XMP-05V -> XMR-05V
 - LED PCB connnector: PHR-5
 - LED bridge cable length: 15cm
 - Cable length: ~200cm each
 	- From last-end connector to LED PCB
 
-LED cables go through the woofer furniture from the inner side of the block (and covered with a small metal cover), which is separated from the outer side which is where the beams are secured. The furniture doesn't seem to have any way to open that side so options are to take out the woofer or using a cable puller to run the new harness up to the LEDs.
 ![[rgb-wiring/woofer-lights-wiring.svg]]
+> [!hint] Check CN10 very carefully
+> Apparently the connector for CN10 on the outer side is **inverted** compared to how it comes out from the CN10 on BIO2 and how it is shown in the diagram above. So when making the harness take in mind the position of the connector and pay attention to which pins to the wires go from the CN10 connector on the BIO2 to the connector outside the PCB.
+> 
+> In my case after making the harness it ended up looking like this:
+> ![[rgb-wiring/cn10-wired.jpg]]
+> Instead of starting from pin 1 which would be the top left pin, in this case pin 1 is located at the bottom right.
+
+All the wires from the CN10 and pin 1 from CN19 are grouped into the IC/W LED connector, which also carries 12V and GND for the woofers. For the readers, 12V and GND are taken from the COM1 connector instead, so in the end IC/W only feeds the woofer LEDs. ([[rgb-lights-guide#^ic-w-connector|reference]])
+
+The remaining harnesses were built according to the diagram above. Do note that woofer color pins are spliced at some termination, resulting in two harnesses coming from one connector.
+
+LED cables go through the woofer furniture from the inner side of the box (and covered with a small metal cover), which is separated from the outer side which is where the beams are secured. 
+![[rgb-wiring/woofer-lights-runthrough.jpg]]
+*Section between the cab and the woofer where the wires for the speaker and LEDs are covered, with the metal sheet removed*
+
+You can access this side by taking off the speaker, which can be set very thight in place and you may need to apply some force with a tool like a flat screwdriver.
+> TODO: add pics of the inside of the box
 
 ---
-### Reader
+### Readers
 - LED PCB connector: PHR-5
 - Lights are independent from reader signal
 	- Reader connector: XMR-05V -> XMP-05V
 - LED bridge cable length: 15cm
 - Cable length: ~80cm each
 	- From last-end connector to LED PCB
-Reader LEDs current and ground however might need to be taken from COM1, at least for the ground since +12V comes directly from PSU, ground is taken from PCB's serial.
 
-In this case I used pin 4 from COM1 to take current for the LEDs (benefiting from the workaround I did for the [[arcade-cabs/iidx-epolis-upgrade#2. Build a JST connector|EPOLIS upgrade]]) and spliced the GND pin in order to merge both the ground for the serial and the lights.
 ![[rgb-wiring/reader-lights-wiring.svg]]
+
+Reader LEDs current and ground are being taken from COM1, +12V comes directly from PSU and ground is taken from PCB's serial.
+
+In this case I used pin 4 from COM1 to take current for the LEDs (benefiting from the workaround I did for the [[arcade-cabs/iidx-epolis-upgrade#2. Build a JST connector|EPOLIS upgrade]]) and spliced the GND pin in order to merge both the ground for the serial and the lights. ([[rgb-lights-guide#^com1-wiring|reference]])
+
+The remaining harnesses were built according to the diagram above.
 
 ---
 ### Turntables
@@ -159,20 +174,66 @@ In this case I used pin 4 from COM1 to take current for the LEDs (benefiting fro
 - LED bridge cable length: 15cm
 - Cable length: ~150cm each
 	- From last-end connector to LED PCB
+
 ![[rgb-wiring/tt-lights-wiring.svg]]
+
+In order to be able to connect the TT sensor pins I used a B20B-PHDSS board socket to build an extension of the original CN19 harness ([[rgb-lights-guide#^cn19-extension|reference]]), I couldn't find an actual plug connector for PHDR-20VS so I used this instead, which works anyway. If you don't want to solder I linked a 26 AWG harness which has both connectors, but keep in mind that you would have to depin the terminals that correspond to the LED pins, at least for safety.
+
+The remaining harnesses were built according to the diagram above.
+
+The following pictures show how the LED board connector looks when unplugged, I used this as reference when making the harnesses.
 ![[rgb-wiring/tt-led-reference.jpg]]![[rgb-wiring/tt-led-reference2.jpg]]
 # Results
 ## CN19 (Turntables)
 ![[rgb-wiring/cn19-results-led-wires.jpg]]
+*LED board harnesses, long one is the connection to the BIO2 source (plus voltage and ground), small one is the bridge between boards*
+
 ![[rgb-wiring/cn19-results.jpg]]
+*Messy cable distribution after adding the new harness for CN19, including the extension for the original CN19 harness and how current is taken from the PSU*
+
 ![[rgb-wiring/cn19-results2.jpg]]
+*New CN19 harness*
+
 ![[rgb-wiring/cn19-results-tt-extension.jpg]]
+*Extension of original CN19 harness*
+^cn19-extension
+
 ![[rgb-wiring/cn19-results-tt-extension2.jpg]]
+*TT sensor wires from CN19 harness*
+
 ![[rgb-wiring/cn-19-results-12v-leds.jpg]]
+*Harness and 12V and GND connections from the PSU*
+
 ![[rgb-wiring/rgb-results.jpg]]
+*Testing the new harness*
+
 ![[rgb-wiring/rgb-results2.jpg]]
 ![[rgb-wiring/rgb-results3.jpg]]
 ![[rgb-wiring/rgb-results4.jpg]]
 ![[rgb-wiring/rgb-results-final.jpg]]
+*Final look of the turtable LEDs*
 ## CN10 (Woofers and Readers)
+### Woofers results
 ![[rgb-wiring/cn10-results.jpg]]
+*CN10 harness (wrong wiring, check [[#Woofers]]section)*
+
+![[rgb-wiring/woofer-lights-results.jpg]]
+*IC/W LED connector, grouping all conections for readers and woofers LEDs*
+^ic-w-connector
+
+![[rgb-wiring/woofer-lights-results2.jpg]]
+*12V and GND taken from PSU into IC/W LED connector*
+
+![[rgb-wiring/woofer-lights-results3.jpg]]
+*Testing the new harness*
+
+![[rgb-wiring/woofer-lights-results4.jpg]]
+*Final look on the woofer LEDs*
+
+### Readers results
+![[rgb-wiring/reader-lights-results.jpg]]
+*COM1 harness after adding wires for 12V and replacing the GND wire*
+^com1-wiring
+
+![[rgb-wiring/reader-lights-results2.jpg]]
+*IC/W LED connector and IC LED connectors*

@@ -28,7 +28,7 @@ Swap I/O board from CCJ for the BIO2 inside the IIDX PCB (assuming it is a CB PC
 > CCJ BIO2 has BI2X firmware already flashed, it is not compatible for legacy IIDX, but it could be used for a 120hz upgrade
 ## Step 2: Take important cables
 Unplug **CN15** and **COM** (CN7 in BIO2) cables from IIDX PCB, has to be plugged into the BIO2 inside the CCJ
-   - Cables look like this[^1]: ![[iidx-epolis-upgrade/img/bio2-with-cables.png]]
+   - Cables look like this: ![[iidx-epolis-upgrade/img/bio2-with-cables.png]]*Picture taken from the [IIDX LDJ DIY Upgrade Kit Installation guide](https://docs.google.com/document/d/1i4etnZGyecHbVvoRPkY14CLfO-HF48YDg5liX45Ui2A/edit?tab=t.0#heading=h.m8ozwkt8m7wu)*
 ## Step 3: Get the audio card
 Buy a Asus XONAR AE audio card and insert it to any PCIe slot, line signal will go into the FRONT jack port from the card.
 
@@ -59,7 +59,10 @@ You can do two versions for the same solution:
 
 Following the same color codes, the result should look something like this:
 ![[iidx-epolis-upgrade/img/bio2-com1-wires.png]]
+*COM1 connector inside CCJ PCB*
+
 ![[iidx-epolis-upgrade/img/mounted-serial-adapter.png]]
+*RS232 connector wired with Duponts into COM1*
 
 Since this only for serial data transfer, the fourth pin on the COM1 connector in the CCJ, which corresponds to +12V, goes unused, therefore the only pins needed will be, in order, TX, RX and GND.
 
@@ -74,7 +77,10 @@ The resulting pinout would be:
 Be sure to keep the metal part of the Dupont side up and try to push it inside as far as you can without too much force. This just works™ but Dupont cables are pretty frail and can unplug at any time if you need to move the cabinet
 ##### 2. Build a JST connector:
 This takes a bit of extra effort but results in a more clean and resilient solution. Only materials needed are the JST plugs and terminals attached at the beginning of the section, and of course a crimper.
-![[iidx-epolis-upgrade/img/diy-serial-to-jst2.jpg]]![[iidx-epolis-upgrade/img/diy-serial-to-jst.jpg]]![[iidx-epolis-upgrade/img/serial-adapter-result.jpg]]
+![[iidx-epolis-upgrade/img/diy-serial-to-jst2.jpg]]
+*Wired RS232 with a JST*
+
+![[iidx-epolis-upgrade/img/diy-serial-to-jst.jpg]]![[iidx-epolis-upgrade/img/serial-adapter-result.jpg]]
+*RS232 connected to serial connector and COM1*
 # Result inside cab
 ![[iidx-epolis-upgrade/img/epolis-upgrade-results-1.png]]![[iidx-epolis-upgrade/img/epolis-upgrade-results-2.png]]
-[^1]: Picture taken from the [IIDX LDJ DIY Upgrade Kit Installation guide](https://docs.google.com/document/d/1i4etnZGyecHbVvoRPkY14CLfO-HF48YDg5liX45Ui2A/edit?tab=t.0#heading=h.m8ozwkt8m7wu)

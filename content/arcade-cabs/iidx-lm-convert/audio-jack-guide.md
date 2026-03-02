@@ -67,6 +67,8 @@ At this point the headphone functionality should be working right away, the only
 
 The audio plugs are positioned just below the deck to assimilate their position like a Lightning Model cabinet, and to keep it fancy (and secured) a little 3D printed case was set up, made by @roxandtol: 
 > TODO: add files
+
+These little cases are attached using the screws that you can find below the deck. You can see references [[audio-jack-guide#^audio-jack-case|here]]and [[audio-jack-guide#^audio-jack-case2|here]]
 # Results
 ![[audio-jack/cn15-cable-2.jpg]]
 *CN15 connector for legacy harness*
@@ -82,4 +84,9 @@ The audio plugs are positioned just below the deck to assimilate their position 
 *CN15 with HP DETECT pins (last two white wires), coming from the audio cables*
 ^cn15-with-detect
 
-![[audio-jack/audio-cable-result.jpg]]
+![[audio-jack/audio-cable-results.jpg]]
+*Audio jack with 3D printed case*
+^audio-jack-case
+
+![[audio-jack/audio-cable-results2.jpg]]*Audio jack with 3D printed case* from below, using one of the screws from below the deck have them attached
+^audio-jack-case2

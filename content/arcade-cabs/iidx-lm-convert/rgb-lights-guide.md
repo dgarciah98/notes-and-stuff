@@ -13,7 +13,6 @@ tags:
 > - Reader LEDs not installed
 
 >[!tldr] TODO
->- Add pictures of the woofer box insides
 >- Add results for reader LEDs
 
 > [!warning]
@@ -146,9 +145,24 @@ The remaining harnesses were built according to the diagram above. Do note that 
 LED cables go through the woofer furniture from the inner side of the box (and covered with a small metal cover), which is separated from the outer side which is where the beams are secured. 
 ![[rgb-wiring/woofer-lights-runthrough.jpg]]
 *Section between the cab and the woofer where the wires for the speaker and LEDs are covered, with the metal sheet removed*
+^woofer-wires-plate
 
 You can access this side by taking off the speaker, which can be set very thight in place and you may need to apply some force with a tool like a flat screwdriver.
-> TODO: add pics of the inside of the box
+![[rgb-wiring/woofer-inside.jpg]]
+
+Inside the woofer box you can see the holes that correspond to the ones in the [[rgb-lights-guide#^woofer-wires-plate|pictures above]], you will have to pass the harness through here in order to make it to the LED boards.
+![[rgb-wiring/woofer-inside2.jpg]]
+![[rgb-wiring/woofer-inside3.jpg]]
+
+To pass the harnesses you may use one of the holes inside the cab that were shown in the Audio Jack section, in the same fashion as for the audio cables. The following pictures show through where I've been running the harness through up to the LEDs:
+![[woofer-runthrough.jpg]]
+![[woofer-runthrough2.jpg]]
+![[woofer-runthrough3.jpg]]
+
+For this last section I've ran the harness through the same hole as the original harness, which is in the innermost corner (this is the P2 woofer, so it is located at the right).
+
+In the way upwards you can find (or rather, touch) a knot where the original harness is held so it doesn't fall through the hole, you may use it too for the new harness.
+![[woofer-runthrough4.jpg]]
 
 ---
 ### Readers

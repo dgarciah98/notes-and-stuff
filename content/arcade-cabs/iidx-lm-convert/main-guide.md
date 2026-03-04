@@ -19,7 +19,8 @@ tags:
 > [!info] Regarding cabinet
 > This was done on a beatmania IIDX Tricoro cabinet.
 
-This will be a continuation from a previous guide where I upgraded a IIDX Tricoro cabinet with a CCJ PCB in order to be able to play versions from RESIDENT and beyond. You may catch up with that guide first[^1].
+This will be a continuation from a previous guide where I upgraded a IIDX Tricoro cabinet with a CCJ PCB in order to be able to play versions from RESIDENT and beyond. You may catch up with that guide first:
+#### [[../iidx-epolis-upgrade|IIDX EPOLIS upgrade with CCJ PCB]] ([Mirror](https://rentry.co/iidx-epolis-ccj-upgrade))
 
 Here I've tried to document and cover the upgrade of a IIDX Tricoro cabinet to a 120Hz/LM convert cabinet, with the addition of installing LED lights like in LM cabinets, as well as rewiring the existing leds for the turntables and woofers to light the same way as LM cabinets (RGB light depending on game) and also adding lights for IC readers. All done while keeping the cabinet's furniture completely intact. I've also tried to merge in one place everything that I could investigate and read from different sources of information.
 
@@ -59,7 +60,9 @@ Instead of using the original aluminium discs I've used 3D printed discs. Design
 In my case I've used a LG C5 42" OLED TV, which is as big as the CANNON BALLERS screen. This TV in specific offers very low input lag too.
 LG OLED TVs, while usually expensive, are highly recommended. Cheaper options can be considered if looking instead for VA panels, like the Gigabyte AORUS FV43U.
 
-Other options to consider for both VA and OLED are also screens from Sony, Samsung, Asus, LG QLED ones, etc.[^2]
+Other options to consider for both VA and OLED are also screens from Sony, Samsung, Asus, LG QLED ones, etc.
+
+Some more models can be found in [iidx.org](https://iidx.org/infinitas_monitor#tvs).
 
 A cheaper option available in the US is to get a Vizio Quantun 43" display. In EU maybe some options might be either Hisense or TCL.
 
@@ -74,7 +77,7 @@ The screen will be connected to the graphic's card DisplayPort. If your screen o
 Any touch screen that complies with the characteristics above should be enough.
 In my case I got this one from Aliexpress, as a cheaper option (or at least it was when I bought it): https://aliexpress.com/item/1005007445019329.html
 > [!note] FYI
-> You might need to buy longer cables tham the ones provided with the screen itself, the ones included with the screen above weren't longer than 1 meter at most. 
+> You might need to buy longer cables than the ones provided with the screen itself, the cables included with the one I got weren't longer than 1 meter at most. 
 
 Additionaly a mount for the touch screen is ideal to keep it in place. I used the one made for this guide by @kursain: https://www.printables.com/model/1362898-beatmania-iidx-lightning-model-upgrade-parts/comments
 
@@ -108,8 +111,5 @@ If you want the lights back and also working like in LM, then next up is how I m
 ---
 # [[ws2812b-lights-guide|🚨 WS2812b Lights wiring]]
 ![[ws2812b-lights-guide]]
-
-[^1]: [[../iidx-epolis-upgrade|IIDX EPOLIS upgrade with CCJ PCB]] ([Mirror](https://rentry.co/iidx-epolis-ccj-upgrade))
-[^2]: Some more models can be found in [iidx.org](https://iidx.org/infinitas_monitor#tvs).
 
 

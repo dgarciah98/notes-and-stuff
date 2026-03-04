@@ -12,6 +12,8 @@ tags:
 > [!todo] TODO
 > - Add pictures with headphone amplifiers
 
+This section contains all related documentation, notes and results related the process of setting up headphone jack connectors on a Tricoro cabinet, in order to make it work like a LM cabinet, while making use of the BIO2 dedicated connections that are already programmed for these purpose on LM cabinets.
+
  > [!tldr] Planning
 > - Get same harness for CN15 (PHDR-26VS) and build to XMR-8V harness, the existing cable for 1P keys ([[#BI2A wiring]]) can be reused
 > - Short to ground both HP and REC pins to have headphones always enabled
@@ -39,7 +41,7 @@ tags:
 >- #### Audio cable:
 >	- TRRS 3.5mm female jack plug: https://es.aliexpress.com/item/1005008150971423.html
 >	- TRS 3.5mm male jack plug: https://es.aliexpress.com/item/1005009754865907.html
->	- Sheathed wire: https://es.aliexpress.com/item/1005007924124268.html
+>	- Sheathed wire (4 cores): https://es.aliexpress.com/item/1005007924124268.html
 ### BI2A wiring
 ![[audio-jack/cn15-bi2a-wiring.svg]]
 ### BI2X wiring

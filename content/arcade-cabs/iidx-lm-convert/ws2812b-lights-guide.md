@@ -11,6 +11,14 @@ tags:
 ---
 > [!warning] WIP
 
+> [!warning] Proceed with Caution
+> ### Careful when making the harnesses for this part
+> Due to the amount of current that will be transported through the wires that connect the LEDs with the respective source of power, you'll probably need a big enough wire gauge for feeding +5V to the LEDs, and also keep the same gauge size for grounds.
+> 
+> For this part I will use 22 AWG since it's the biggest or at least one of the bigger gauges that the used JST terminals allow.
+> 
+> **KEEP IN MIND** that this is still a work in progress and hasn't been tested as of now.
+
 > [!check]- Bill Of Materials
 > - #### CN18 (lights output): 
 > 	- PHDR-16VS: 
@@ -44,7 +52,9 @@ tags:
 > 			- Terminals (SXA-001T-P0.6): https://es.aliexpress.com/item/1005004425152785.html
 > - #### External PSU
 > 	- MEAN WELL 5V 90W LRS-100-5 PSU
-## Lightning model outline
+
+This section contains all related documentation, notes and results related the process of installing and setting up addresssable LED lights on a Tricoro cabinet, in order to behave and look like the light system of a LM cabinet, while making use of the BIO2 dedicated connections that are already programmed for this purpose on LM cabinets.
+# Lightning model outline
 > [!tldr] Legend
 > - Red: BASS
 > - Blue: SIDE_1P
@@ -57,68 +67,68 @@ tags:
 
 ![[ws2812b-wiring/lightning-leds-outline.png]]
 *LM WS2812b LEDs outline*
-## Legacy outline (theory)
+# Legacy outline (theory)
 ![[ws2812b-wiring/iidx-legacy-leds-outline.JPG]]
 *Tricoro cabinet outline of the setup for the WS2812b LEDs*
-## CN18
-### WS2812b lights wiring outline 
+# CN18
+## WS2812b lights wiring outline 
 ![[ws2812b-wiring/cn18-wiring.svg]]
 
 For this you will likely need an external PSU in order to feed all the required LEDs, since the PCB's PSU probably will not be enough. The LED data is taken out from CN18.
-### LED tapes
-#### Measurements
+## LED tapes
+### Measurements
 - Diffusors used are 2cm width long
 - 
-##### Pillars
+#### Pillars
 - 1 meter (~98cm) per bar (4 meters)
 ![[Pasted image 20251209183355.jpg]]
 ![[Pasted image 20251209183405.jpg]]
-##### Upper
+#### Upper
 -
-##### Sides
+#### Sides
 - From bottom of cab to mark on the metal piece: 85cm
 ![[Pasted image 20251209183429.jpg]]
 
-##### Compane
+#### Compane
 - 41 cm, below deck, just above door
-##### TP sides
+#### TP sides
 - On each side: 27cm
 - Without covering all of panel's height: 25cm
 - Running connecting cable below deck: ~112cm
 
-#### PILLAR 1P
+### PILLAR 1P
 1P barrier
 - 68 LED tape x2
 - 61 LED tape x1
 ![[pillar1p-led-tape.png]]
-#### PILLAR 2P
+### PILLAR 2P
 2P barrier
 - 68 LED tape x2
 - 61 LED tape x1
 ![[pillar2p-led-tape.png]]
-#### UPPER
+### UPPER
 Upper corners, LEDs above speakers, header LEDS seem to be independent
 - 54 LED tape x2
 - 11 LED tape x2
 - 57 White LED tape x2
 ![[upper-led-tape.png]]
-#### SIDE 1P
+### SIDE 1P
 1P side under deck and barrier
 - 45 LED tape x1
 ![[side1p-led-tape.png]]
-#### SIDE 2P
+### SIDE 2P
 2P side under deck and barrier
 - 45 LED tape x1
 ![[side2p-led-tape.png]]
-#### COMP (compane)
+### COMP (compane)
 Strip under deck
 - 21 LED tape x1
 ![[comp-led-tape.png]]
-#### TP SIDE
+### TP SIDE
 Strips on touch panel sides
 - 17 LED tape x2
 ![[tpside-led-tape.png]]
-#### BASS
+### BASS
 Strips on bass shaker
 - 19 LED tape x2
 ![[base-led-tape.png]]

@@ -44,7 +44,6 @@ tags:
 >		- Connector: https://es.aliexpress.com/item/1005008735680501.html
 >		- Terminals (SPHD-001T-P0.5): https://es.aliexpress.com/item/1005003975795283.html
 > 	- Socket (plug doesn't exist) - B20B-PHDSS:
-> 		- In order to keep it seamless, I'll need to passthrough the existing cable
 > 		- https://es.aliexpress.com/item/1005008318489480.html
 > 		- 26 AWG harness to PHDR-20VS (2x10P): https://es.aliexpress.com/item/1005005572943124.html
 >
@@ -63,12 +62,12 @@ tags:
 > 			- Connector: https://es.aliexpress.com/item/1005005678537487.html
 > 			- Terminals (SXA-001T-P0.6): https://es.aliexpress.com/item/1005004425152785.html
 > 	- Reader connector: PHR-5
-> 		- Directly into RGB light, lights are independant from reader signal
+> 		- Directly into RGB light, lights are independent from reader signal
 > 
 > - #### LED PCB connector: 
 > 	- PHR-5
 > 		- 22 AWG Harness: https://es.aliexpress.com/item/1005009702800874.html 
-> 			- Description says it's 22 AWG but I got 24 AWG
+> 			- Description says it's 22 AWG, however the product itself was 24 AWG
 > 		- Connector and terminals: https://es.aliexpress.com/item/1005007441813591.html
 > 		- At least one for each pair of LEDs, since they are connected in series:
 > 		- 2 LED PCB per turntable + 1 cable for incoming data = 2 cables per TT
@@ -79,6 +78,8 @@ tags:
 > - #### RGB strip for missing lights: 
 > 	- https://es.aliexpress.com/item/1005009892980105.html
 > 		- Connectors: https://es.aliexpress.com/item/4000231478837.html
+
+This section contains all related documentation, notes and results related the process of setting up existing LED lights in a Tricoro cabinet to behave like the lights of a LM cabinet, while making use of the BIO2 dedicated connections that are already programmed for this purpose on LM cabinets.
 ## DC OUT
 According to the manual, all grounds are merged to the PSU's ground, therefore you can use the DC OUT connection which the cable itself is an extension of the PSU's molex. Alternatively you may use a molex cable and splice 12V and GND from it.
 ![[rgb-wiring/dc-out.jpg]]

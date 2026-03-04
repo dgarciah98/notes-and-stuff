@@ -36,5 +36,6 @@
   "showLineNumber": false,
   "tabSize": 3,
   "readableLineLength": true,
-  "spellcheck": true
+  "spellcheck": true,
+  "showInlineTitle": true
 }

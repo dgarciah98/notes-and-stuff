@@ -15,7 +15,7 @@ tags:
 >[!tldr] TODO
 >- Add results for reader LEDs
 
-> [!warning]
+> [!warning] Proceed with Caution
 > ### Careful when making the harnesses for this part
 > You will need at least 24 AWG wire for most connections, specially for feeding +12V to the LEDs, and also keep the same gauge size for grounds. Wires that carry signals should be fine with smaller gauge.
 > 
@@ -80,7 +80,7 @@ tags:
 > 	- https://es.aliexpress.com/item/1005009892980105.html
 > 		- Connectors: https://es.aliexpress.com/item/4000231478837.html
 ## DC OUT
-According to the manual, all grounds are merged to the PSU's ground, therefore you can use the DC OUT connection which the cable itself is an extension of the PSU's molex.
+According to the manual, all grounds are merged to the PSU's ground, therefore you can use the DC OUT connection which the cable itself is an extension of the PSU's molex. Alternatively you may use a molex cable and splice 12V and GND from it.
 ![[rgb-wiring/dc-out.jpg]]
 ## RGB Lights wiring outline
  > [!tldr] Planning
@@ -98,7 +98,7 @@ CN10 only carries color signal for both reader LEDs and red and green for woofer
 
 Cable length should be atleast the following:
 - Reader LEDs: ~80cm
-- Woofer LEDs: ~200cm
+- Woofer LEDs: ~180cm each, 200cm max.
 - LED bridge cable length: 15cm
 
 Following the [[#RGB Lights wiring outline|main outline]] the relay board is completely ignored and cables go directly to the LED boards.
@@ -127,12 +127,12 @@ Following the [[#RGB Lights wiring outline|main outline]] the relay board is com
 - Woofer RGB connector: XMP-05V -> XMR-05V
 - LED PCB connnector: PHR-5
 - LED bridge cable length: 15cm
-- Cable length: ~200cm each
+- Cable length: ~180cm each, 200cm max.
 	- From last-end connector to LED PCB
 
 ![[rgb-wiring/woofer-lights-wiring.svg]]
 > [!hint] Check CN10 very carefully
-> Apparently the connector for CN10 on the outer side is **inverted** compared to how it comes out from the CN10 on BIO2 and how it is shown in the diagram above. So when making the harness take in mind the position of the connector and pay attention to which pins do the wires go from the CN10 connector on the BIO2 to the connector outside the PCB.
+> Apparently the connector for CN10 on the outer side of a CCJ PCB is **inverted** compared to how it comes out from the CN10 on BIO2 and how it is shown in the diagram above. So when making the harness take in mind the position of the connector and pay attention to which pins do the wires go from the CN10 connector on the BIO2 to the connector outside the PCB.
 > 
 > In my case after making the harness it ended up looking like this:
 > ![[rgb-wiring/cn10-wired.jpg]]
@@ -149,20 +149,22 @@ LED cables go through the woofer furniture from the inner side of the box (and c
 
 You can access this side by taking off the speaker, which can be set very thight in place and you may need to apply some force with a tool like a flat screwdriver.
 ![[rgb-wiring/woofer-inside.jpg]]
+*Woofer deattached off the box, showing the inside*
 
 Inside the woofer box you can see the holes that correspond to the ones in the [[rgb-lights-guide#^woofer-wires-plate|pictures above]], you will have to pass the harness through here in order to make it to the LED boards.
 ![[rgb-wiring/woofer-inside2.jpg]]
 ![[rgb-wiring/woofer-inside3.jpg]]
 
 To pass the harnesses you may use one of the holes inside the cab that were shown in the Audio Jack section, in the same fashion as for the audio cables. The following pictures show through where I've been running the harness through up to the LEDs:
-![[woofer-runthrough.jpg]]
-![[woofer-runthrough2.jpg]]
-![[woofer-runthrough3.jpg]]
+![[rgb-wiring/woofer-runthrough.jpg]]
+![[rgb-wiring/woofer-runthrough2.jpg]]
+![[rgb-wiring/woofer-runthrough3.jpg]]
 
 For this last section I've ran the harness through the same hole as the original harness, which is in the innermost corner (this is the P2 woofer, so it is located at the right).
 
 In the way upwards you can find (or rather, touch) a knot where the original harness is held so it doesn't fall through the hole, you may use it too for the new harness.
-![[woofer-runthrough4.jpg]]
+![[rgb-wiring/woofer-runthrough4.jpg]]
+*Woofer LED boards turned on and working with new harnesses*
 
 ---
 ### Readers
@@ -172,6 +174,7 @@ In the way upwards you can find (or rather, touch) a knot where the original har
 - LED bridge cable length: 15cm
 - Cable length: ~80cm each
 	- From last-end connector to LED PCB
+> [!warning] WIP
 
 ![[rgb-wiring/reader-lights-wiring.svg]]
 

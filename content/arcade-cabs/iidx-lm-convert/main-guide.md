@@ -21,7 +21,9 @@ tags:
 
 This will be a continuation from a previous guide where I upgraded a IIDX Tricoro cabinet with a CCJ PCB in order to be able to play versions from RESIDENT and beyond. You may catch up with that guide first[^1].
 
-Here I've tried to document and cover the upgrade of a IIDX Tricoro cabinet to a 120Hz/LM convert cabinet, with the addition of installing LED lights like in LM cabinets, as well as rewiring the existing leds for the turntables and woofers to light the same way as LM cabinets (RGB light depending on game) and also adding lights for IC readers. All done while keeping the cabinet's furniture completely intact.
+Here I've tried to document and cover the upgrade of a IIDX Tricoro cabinet to a 120Hz/LM convert cabinet, with the addition of installing LED lights like in LM cabinets, as well as rewiring the existing leds for the turntables and woofers to light the same way as LM cabinets (RGB light depending on game) and also adding lights for IC readers. All done while keeping the cabinet's furniture completely intact. I've also tried to merge in one place everything that I could investigate and read from different sources of information.
+
+May anyone find this guide useful and serve as reference for anyone who wants to convert their cabinet or come up with differents solutions.
 
 Feel free to DM me in Discord if you have questions: @elmiamiman
 
@@ -43,7 +45,7 @@ For a Tricoro cab, luckily most of the hard work is done, so basically what you 
 
 Other cabinet models will need ICCC readers (called "blue readers") and a rewiring job for the readers to work. Tricoro cabs already have this set up.
 
-Also you will need to put back the original turntable teeth discs, or at least some discs that have 72 teeth instead of 144, and with it's original mounts if you changed them for the same mod, since BI2X firmware reads half pulse and it results in having the same sensibility as having a 144 teeth disc on LDJ.
+You will also need to put back the original turntable teeth discs, or at least some discs that have 72 teeth instead of 144, and with it's original mounts if you changed them for the same mod, since BI2X firmware reads half pulse, which results in having the same sensibility as having a 144 teeth disc on LDJ.
 
 Instead of using the original aluminium discs I've used 3D printed discs. Design made by @roxandtol: [https://www.printables.com/model/1525394-iidx-turntable-tooth-wheel](https://www.printables.com/model/1525394-iidx-turntable-tooth-wheel)
 ![[convert/tt-disc1.jpg]]
@@ -54,7 +56,7 @@ Instead of using the original aluminium discs I've used 3D printed discs. Design
 
 > TODO: insert more info for older cabinets
 ### Screen
-In my case I've used a LG C5 42" OLED TV, which is as big as the CANNON BALLERS screen. This TV in specific offers a very low input lag too.
+In my case I've used a LG C5 42" OLED TV, which is as big as the CANNON BALLERS screen. This TV in specific offers very low input lag too.
 LG OLED TVs, while usually expensive, are highly recommended. Cheaper options can be considered if looking instead for VA panels, like the Gigabyte AORUS FV43U.
 
 Other options to consider for both VA and OLED are also screens from Sony, Samsung, Asus, LG QLED ones, etc.[^2]
@@ -67,14 +69,17 @@ Some people instead kept the monitor chassis by replacing only the monitor with 
 
 The screen will be connected to the graphic's card DisplayPort. If your screen only has HDMI input, like LG OLED's screens, you might want to get a DP to HDMI converter dongle. I got this one for example: https://amzn.eu/d/0iVZCXwP
 ![](convert/lm-convert-result.jpg)
-*LG OLED C5 42" running*
+*LG OLED C5 42" showing IIDX*
 ### Touch screen
-Any touch screen with covers the characteristics above should be enough.
-In my case I got this one from Aliexpress, as a cheaper option: https://aliexpress.com/item/1005007445019329.html
+Any touch screen that complies with the characteristics above should be enough.
+In my case I got this one from Aliexpress, as a cheaper option (or at least it was when I bought it): https://aliexpress.com/item/1005007445019329.html
+> [!note] FYI
+> You might need to buy longer cables tham the ones provided with the screen itself, the ones included with the screen above weren't longer than 1 meter at most. 
 
 Additionaly a mount for the touch screen is ideal to keep it in place. I used the one made for this guide by @kursain: https://www.printables.com/model/1362898-beatmania-iidx-lightning-model-upgrade-parts/comments
 
-This mount sits over the sliders, hiding them completely, and it's held from behind the front panel, having to remove the sliders PCB previously, although it also stays over the Effect and VEFX buttons. The same guide also provides a printable model for replacing the Insert Coin plate with a piece which holds both buttons.
+This mount sits over the sliders, hiding them completely, and it's held from behind the front panel, having to remove the slider PCB previously, only downside is that it stays over the Effect and VEFX buttons. The same guide also provides a printable model for replacing the Insert Coin plate with a piece which holds both buttons.
+> TODO: add pictures for coin insert plate with effect and vefx buttons
 
 The subscreen will be connected to the graphic's card first HDMI (labelled HDMI 1) and at least one USB C for touch input into the PCB USBs
 ![](convert/subscreen-mount4.jpg)![](convert/subscreen-mount1.jpg)![](convert/subscreen-mount3.jpg)![](convert/slider-pcb.jpg)
@@ -86,7 +91,7 @@ How do you know if you have the correct one? On Windows, when connecting the boa
 
 On first boot you may get a `USB I/O ERROR: EROR BI2A` message, which probably may depend on setup, but for me after a reboot the game loaded just fine.
 
-If you got all of this done and it Works™, congrats, you converted your IIDX to a Lightning Model! You don't really need anything else.
+If you got all of this done and it *Works™*, congrats, you converted your IIDX to a Lightning Model! You don't really need anything else.
 
 Only drawbacks for this convert is that top speaker lights and volume sliders go unused due to BI2X firmware. If you want the sliders to work then you may look for another solution instead of this, like 🏳️‍⚧️LDJ.
 

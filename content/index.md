@@ -11,3 +11,6 @@ I make these notes along the [obsidian-git](https://github.com/Vinzent03/obsidia
 Notes related to arcade cabinet DIY projects, mostly rhythm game ones, with documentation of the processes and work I've done along with images.
 
 Wiring diagrams that can be found have been made with the [WireViz](https://github.com/wireviz/WireViz), source files can be found as YAML files.
+
+## [[gitadora/index.md|🥁 GITADORA stuff]]
+My personal notes about GITADORA, as of now only cotains lists of records and songs I want to try out, and may could be useful as reference for someone else. Will update whenever I don't forget to do so, also probably won't be in english.

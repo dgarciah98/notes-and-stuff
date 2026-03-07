@@ -87,6 +87,16 @@ This mount sits over the sliders, hiding them completely, and it's held from beh
 The subscreen will be connected to the graphic's card first HDMI (labelled HDMI 1) and at least one USB C for touch input into the PCB USBs
 ![](convert/subscreen-mount4.jpg)![](convert/subscreen-mount1.jpg)![](convert/subscreen-mount3.jpg)![](convert/slider-pcb.jpg)
 ![](convert/subscreen-mount2.jpg) 
+### Buttons
+Since the subscreen, as set according to the previous section, will be blocking the Effect and VEFX buttons, a good idea would be to move said buttons to the Insert Coin plate like in Kursain's guide.
+
+In my case, I took a different approach, instead of using his printed models, I opted for using an acrylic piece and aluminium plate like the original Insert Coin plate, which I think it fits more with the overall look. The models and art used for the new Insert Coin plate are made by @dj_shoko and can be found in the Rhythm Game Cabs discord.
+
+For this you will need to make an extension harness with fastons terminals for both the connectors that come from the cab and the switches. Making these cables and running them is a pretty straight-forward job. The coin section is accessible through behind the front panel and shoving your hand by the center of the deck.
+![[convert/insert-coin-buttons.jpg]]
+*Insert Coin plate with custom art and holes for the Effect and VEFX buttons*
+
+> TODO: setup for LM-like start buttons
 ### BIO2
 If you got a CCJ for the upgrade needed to run EPOLIS, then you may have a spare BIO2 with BI2X already flashed, otherwise you may have to flash your BIO2.
 

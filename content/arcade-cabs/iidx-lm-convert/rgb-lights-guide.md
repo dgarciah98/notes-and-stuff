@@ -22,6 +22,7 @@ tags:
 > In my case I did everything with 22 AWG just to be safe. In the list below you can find already built harnesses for the needed connectors, although some may differ from what I used.
 
 > [!check]- Bill Of Materials
+> If any link stops working, just try to searching for the piece in specific, you'll probably find it.
 >  - #### DC OUT (for feeding the LEDs): 
 > 	  - VLP-04V
 > 		- Connector and terminals: https://es.aliexpress.com/item/1005009428438124.html

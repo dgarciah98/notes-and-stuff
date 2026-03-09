@@ -1,6 +1,10 @@
 > [!info] From NamuWiki
 >https://en.namu.wiki/w/GITADORA%20%EC%8B%9C%EB%A6%AC%EC%A6%88/%EB%82%9C%EC%9D%B4%EB%8F%84%20%ED%91%9C%EA%B8%B0%20%EB%AC%B8%EC%A0%9C
 
+> [!note] From BEMANIWiki
+> - FUZZ-UP songs: https://bemaniwiki.com/index.php?GITADORA+FUZZ-UP/%BF%B7%B6%CA%BA%BE%BE%CE%A1%A6%B5%D5%BA%BE%BE%CE%A1%A6%B8%C4%BF%CD%BA%B9%A1%A6%C0%DC%C2%B3%C6%F1%C9%E8%CC%CC%A5%EA%A5%B9%A5%C8
+> - FUZZ-UP old songs: https://bemaniwiki.com/index.php?GITADORA+FUZZ-UP/%B5%EC%B6%CA%BA%BE%BE%CE%A1%A6%B5%D5%BA%BE%BE%CE%A1%A6%B8%C4%BF%CD%BA%B9%A1%A6%C0%DC%C2%B3%C6%F1%C9%E8%CC%CC%A5%EA%A5%B9%A5%C8%28DM%29#WSDE
+
 # Pattern Classification
 
 An **Underleveled chart** may be labeled as such if the chart’s difficulty satisfies **all** of the following conditions:

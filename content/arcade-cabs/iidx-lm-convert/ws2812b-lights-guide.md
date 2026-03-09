@@ -20,7 +20,7 @@ tags:
 > **KEEP IN MIND** that this is still a work in progress and hasn't been tested as of now.
 
 > [!check]- Bill Of Materials
-> If any link stops working, just try to searching for the piece in specific, you'll probably find it.
+> If any link stops working, just try to searching for the piece in specific for the time being, you'll probably find it.
 > - #### CN18 (lights output): 
 > 	- PHDR-16VS: 
 > 		- 26 AWG Harness (2x8P): https://es.aliexpress.com/item/1005004746953918.html

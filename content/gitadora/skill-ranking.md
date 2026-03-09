@@ -12,9 +12,10 @@ description: List of songs from my Skill Ranking and songs to try in the future
 > [!info]
 >[Link de NamuWiki con canciones recomendadas con explicaciones](https://en.namu.wiki/w/GITADORA%20%EC%8B%9C%EB%A6%AC%EC%A6%88/%EB%82%9C%EC%9D%B4%EB%8F%84%20%ED%91%9C%EA%B8%B0%20%EB%AC%B8%EC%A0%9C)
 >  
-> [Referencia gsv.fun (5750)](https://gsv.fun/en/fuzzup/kasegi/d/5750?c=2923)
-> [Referencia gsv.fun (6000)](https://gsv.fun/en/fuzzup/kasegi/d/6000?c=2923)
-> [Referencia gsv.fun (6250)](https://gsv.fun/en/fuzzup/kasegi/d/6250?c=2923)
+> - [Referencia gsv.fun (5750)](https://gsv.fun/en/fuzzup/kasegi/d/5750?c=2923)
+> - [Referencia gsv.fun (6000)](https://gsv.fun/en/fuzzup/kasegi/d/6000?c=2923)
+> - [Referencia gsv.fun (6250)](https://gsv.fun/en/fuzzup/kasegi/d/6250?c=2923)
+> - [Referencia gsv.fun (6500)](https://gsv.fun/en/fuzzup/kasegi/d/6500?c=2923)
 ### HOT
 | Canción                                   | Dificultad | Skill Actual | Skill Subida | TOP |
 | ----------------------------------------- | ---------- | ------------ | ------------ | --- |

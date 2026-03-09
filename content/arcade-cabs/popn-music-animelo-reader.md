@@ -18,7 +18,7 @@ These cabinets may have the reader already set up if they come with the pillar r
 Feel free to DM me in Discord if you have questions: @elmiamiman
 ## Reader Wiring
 > [!check]- Bill Of Materials 
-> If any link stops working, just try to searching for the piece in specific, you'll probably find it.
+> If any link stops working, just try to searching for the piece in specific for the time being, you'll probably find it.
 > - #### CN2: 
 > 	- PHR-3:
 > 		- Harness (male connector):  https://es.aliexpress.com/item/1005008864177105.html

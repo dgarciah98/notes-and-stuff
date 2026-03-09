@@ -29,7 +29,7 @@ This section contains all related documentation, notes and results related the p
 ---
 ## CN15
 > [!check]- Bill Of Materials 
-> If any link stops working, just try to searching for the piece in specific, you'll probably find it.
+> If any link stops working, just try to searching for the piece in specific for the time being, you'll probably find it.
 > - #### PCB connector: 
 > 	- PHDR-26VS:
 > 		- Harness: https://es.aliexpress.com/item/1005008107323180.html

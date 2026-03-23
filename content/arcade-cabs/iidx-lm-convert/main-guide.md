@@ -93,6 +93,7 @@ Since the subscreen, as set according to the previous section, will be blocking 
 In my case, I took a different approach, instead of using his printed models, I opted for using an acrylic piece and aluminium plate like the original Insert Coin plate, which I think it fits more with the overall look. The models and art used for the new Insert Coin plate are made by @dj_shoko and can be found in the Rhythm Game Cabs discord.
 
 For this you will need to make an extension harness with fastons terminals for both the connectors that come from the cab and the switches. Making these cables and running them is a pretty straight-forward job. The coin section is accessible through behind the front panel and shoving your hand by the center of the deck.
+![[convert/vefx-effect-extension.jpg]]
 ![[convert/insert-coin-buttons.jpg]]
 *Insert Coin plate with custom art and holes for the Effect and VEFX buttons*
 

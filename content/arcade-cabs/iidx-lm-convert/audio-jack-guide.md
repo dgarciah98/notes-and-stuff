@@ -47,6 +47,8 @@ This section contains all related documentation, notes and results related the p
 ![[audio-jack/cn15-bi2a-wiring.svg]]
 ### BI2X wiring
 ![[audio-jack/cn15-bi2x-wiring.svg]]
+#### Headphones wiring
+![[audio-jack/cn15-bi2x-headphones-wiring.svg]]
 ![[audio-jack/cn15-bi2x-pinout.png]]
 
 CN15 is the easiest one since it could be left as it is, but if you want headphones to work you need to add a few more cables (check [[#BI2X wiring]]). From here you have two options:
@@ -56,6 +58,11 @@ CN15 is the easiest one since it could be left as it is, but if you want headpho
 The first option is more of a shim than anything, but it lets you setup headphone volume through the touch screen since this makes the game believe that both headphones are connected.
 
 The second solution ensures that the headphones will work since the game will detect that they have been plugged to either 1P or 2P jack and will let you change headphone volume through the volume settings in the touch screen.
+
+>[!tip] XONAR ports
+>First thing to take into account is that the respective outputs for each player on the XONAR are as it follows, from start to bottom:
+>- P1: SIDE output (last port)
+>- P2: REAR OUTPUT (4th port)
 
 For the audio cables, I've made them with a length of **~180cm** (shorter than I would like, 200cm may be better) and soldering TRRS/4-pole female jack plugs with TRS/3-pole male jack plugs, leaving the mic pin from the female jack separated for crimping and inserting it in their respective HP DETECT pin. (References can be seen [[audio-jack-guide#^audio-cables|here]] and [[audio-jack-guide#^cn15-with-detect|here]])
 
@@ -67,7 +74,19 @@ The audio cables can be taken outside through some holes that can be found insid
 ![[audio-jack/audio-cable-runthrough3.jpg]]
 *Audio cable outside the cabinet. Metal plate that covers the other cables can be seen in the back*
 
-At this point the headphone functionality should be working right away, the only detail left is that the audio by itself will be very low, so you will need an amplifier for both channels. Behringer HA400 amps work really well and can be very cheap.
+At this point the headphone functionality should be working right away, the only detail left is that the audio by itself will be very low, so you will need an amplifier for both channels.
+
+Following the diagrams of an LM cab, assuming the headphone amplifier and headphone jack PCBs are the same as Sound Voltex Valkyrie cabs (or at least Nemsys cabs since they would have very similar components as these two if not the same), the amp handles the signal coming SENS pin and then signals JACK DETECT (HP DETECT on BIO2's CN15) and REC DETECT (same name on BIO2) depending on the connected device, and also all grounds in the amp are merged (reflected in [[#Headphones wiring|this diagram]])
+
+Behringer HA400 amps work really well and can be very cheap. You may also get MAX4410 amp boards instead if you want an even cheaper option with the trade-off of having to build the necessary components yourself.
+
+Only caveat with these amps is the grounds and how they are merged, HA400 amps have them merged only for the audio input and DC input, *__not__* the audio output, which means that you may have to join the grounds of the input and output jacks (if you're also building the cables like I did) 
+>TODO: TO BE TESTED
+
+MAX4410 amp boards in the other hand do have all its grounds merged, which may be the most straight-forward solution with only having to setup the cables in that regard.
+> TODO: TO BE TESTED
+
+For the record, the headphone detect functionality works without any amplifier in the middle of the setup (i.e. conecting [[audio-jack-guide#^audio-cables|these cables]]as they are), which points to the minimal condition for it to work being that at least the ground continuity should not be cut at any point in between the headphone jack and the XONAR port path.
 
 The audio plugs are positioned just below the deck, trying to keep them under the player buttons like in a Lightning Model cabinet, and to keep it fancy (and secured) a little 3D printed bracket was set up, made by @roxandtol: [https://www.printables.com/model/1624880-pj392a-bracket-for-iidx](https://www.printables.com/model/1624880-pj392a-bracket-for-iidx "https://www.printables.com/model/1624880-pj392a-bracket-for-iidx")
 

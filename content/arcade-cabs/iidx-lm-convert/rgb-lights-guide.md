@@ -4,7 +4,6 @@ alias:
   - 3. RGB Lights wiring
 description: RGB lights wiring diagrams and planification for LM convert
 sticker: emoji//1f6a5
-date: 2026-02-20
 tags:
   - arcade-cabs
   - lm-convert

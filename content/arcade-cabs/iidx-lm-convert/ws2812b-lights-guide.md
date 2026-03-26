@@ -4,7 +4,6 @@ alias:
   - 4. WS2812b Lights wiring
 description: WS2812b lights wiring diagrams and planification for LM convert
 sticker: emoji//1f6a8
-date: 2026-02-19
 tags:
   - arcade-cabs
   - lm-convert
@@ -38,10 +37,15 @@ tags:
 > 		- 17 LED tape x1
 > 		- 19 LED tape x1
 > 		- Total: 17 LED tapes
-> 			- https://es.aliexpress.com/item/1005005922059410.html
-> 			- https://es.aliexpress.com/item/1005009737052138.html
-> 			- https://es.aliexpress.com/item/1005006094726999.html
->
+> - #### LED lightning
+> 	- WS2812B 60led/m and 100led/m tape: https://es.aliexpress.com/item/1005005910958172.html
+> 	- 3Pin AWG22 wire (just in case): https://es.aliexpress.com/item/33032954455.html
+> 	- JST connectors AWG22: https://es.aliexpress.com/item/33042936981.html
+> 	- B2010 Tape diffusor: https://es.aliexpress.com/item/1005008042786167.html
+> 	- T0511 Tape diffusor (for compane): https://es.aliexpress.com/item/1005008376388272.html
+> 	- D1313 180º Tape diffusor (for TP sides) https://es.aliexpress.com/item/1005008109124457.html
+> 	- Spotlights alternative:
+> 		- WS2812B boards (3bit and 1bit): https://es.aliexpress.com/item/1005007503733494.html
 > - #### DC TAPE LED
 > 	- RECOMMENDED to use 22 AWG cable for feeding 5V to all tapes
 > 	- XADR-20V -> XADRP-20V -> CN18 (PHDR-16VS) & LEDs
@@ -112,24 +116,40 @@ Upper corners, LEDs above speakers, header LEDS seem to be independent
 - 54 LED tape x2
 - 11 LED tape x2
 - 57 White LED tape x2
+
+Will mainly use 60led/m tape for the top speaker LEDs, trying to cover both 54 LED tapes.
+
+Options are:
+- Using 100led/m tape for the 11 LED tapes, on the sides of the top beam (as drafted [[ws2812b-lights-guide#Legacy outline (theory)|here]]
+- Get WS2812B LED boards and have them inside the spotlights
 ![[upper-led-tape.png]]
 ### SIDE 1P
 1P side under deck and barrier
 - 45 LED tape x1
+
 ![[side1p-led-tape.png]]
 ### SIDE 2P
 2P side under deck and barrier
 - 45 LED tape x1
+
 ![[side2p-led-tape.png]]
 ### COMP (compane)
 Strip under deck
 - 21 LED tape x1
+
+Will use the T0511 tape diffuser since it's going to be the less visible one and lightning will be more than enough. Might use 60led/m tape since it will cover more length
 ![[comp-led-tape.png]]
 ### TP SIDE
 Strips on touch panel sides
 - 17 LED tape x2
+
+Will use the D1313 tape diffuser in order to assimilate how it looks on a real LM, since it looks like the diffuser itself is sitting on the panel, therefore a 180º diffuser might do the trick.
+
+Might use 60led/m tape depending of how it looks. 
 ![[tpside-led-tape.png]]
 ### BASS
 Strips on bass shaker
 - 19 LED tape x2
+
+Might not add LEDs to bass shaker since having them where feet will be moving around can bring more trouble than anything.
 ![[base-led-tape.png]]

@@ -3,7 +3,14 @@ title: Double Kick practice songs
 description: Songs for practicing double pedal or left pedal
 ---
 # Canciones para practicar doble pedal
+## Posicionamiento pies
+> [!tip] Videos
+>> ![](https://www.youtube.com/watch?v=NOsw_WyRyFM)
+>> ![](https://www.youtube.com/watch?v=_F2uJ5RPDFI)
+>> ![](https://www.youtube.com/watch?v=gfitJnU606E)
 
+![[dk-video-1.jpg]]![[dk-video-2.jpg]]![[dk-video-3.jpg]]![[dk-video-4.jpg]]![[dk-video-5.jpg]]
+## Canciones
 > [!tip] Video
 >> ![](https://www.youtube.com/watch?v=zgQMe-jKxtE)
 

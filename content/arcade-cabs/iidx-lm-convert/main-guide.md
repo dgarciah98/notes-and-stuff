@@ -4,7 +4,6 @@ title: IIDX LM Convert Guide
 alias:
   - 1. IIDX LM Convert
 description: Notes and documentation for the conversion of a beatmania IIDX cabinet to Lightning Model
-date: 2026-02-22
 tags:
   - arcade-cabs
   - lm-convert

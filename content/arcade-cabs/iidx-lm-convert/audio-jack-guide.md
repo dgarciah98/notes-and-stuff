@@ -4,7 +4,7 @@ alias:
   - 2. Audio Jack wiring
 description: Audio Jack wiring diagrams and planification for LM convert
 sticker: emoji//1f3a7
-date: 2026-02-21
+aliases:
 tags:
   - arcade-cabs
   - lm-convert
@@ -41,8 +41,13 @@ This section contains all related documentation, notes and results related the p
 >		- Terminals (SXM-001T-P0.6): https://es.aliexpress.com/item/1005008545862370.html	
 >- #### Audio cable:
 >	- TRRS 3.5mm female jack plug: https://es.aliexpress.com/item/1005008150971423.html
->	- TRS 3.5mm male jack plug: https://es.aliexpress.com/item/1005009754865907.html
+>	- TRS 3.5mm male jack plug: https://es.aliexpress.com/item/1005005672946991.html
 >	- Sheathed wire (4 cores): https://es.aliexpress.com/item/1005007924124268.html
+>- Headphone amplifiers
+>	- MAX4410 board: https://es.aliexpress.com/item/1005006230596608.html
+>		- XH JST kit: https://es.aliexpress.com/item/1005006847308001.html
+>		- DC input connector 2.1mmx5.5mm: https://es.aliexpress.com/item/1005007870346260.html
+>	- HA400 amp (knock-off): https://es.aliexpress.com/item/1005006614134556.html
 ### BI2A wiring
 ![[audio-jack/cn15-bi2a-wiring.svg]]
 ### BI2X wiring
@@ -75,6 +80,8 @@ The audio cables can be taken outside through some holes that can be found insid
 *Audio cable outside the cabinet. Metal plate that covers the other cables can be seen in the back*
 
 At this point the headphone functionality should be working right away, the only detail left is that the audio by itself will be very low, so you will need an amplifier for both channels.
+![[audio-jack/audio-jack-demo.mp4]]
+*Demonstration of headphone detect functionality working, before adding amplifiers (the highlighting of the volume control isn't really appreciated in the video)*
 
 Following the diagrams of an LM cab, assuming the headphone amplifier and headphone jack PCBs are the same as Sound Voltex Valkyrie cabs (or at least Nemsys cabs since they would have very similar components as these two if not the same), the amp handles the signal coming SENS pin and then signals JACK DETECT (HP DETECT on BIO2's CN15) and REC DETECT (same name on BIO2) depending on the connected device, and also all grounds in the amp are merged (reflected in [[#Headphones wiring|this diagram]])
 

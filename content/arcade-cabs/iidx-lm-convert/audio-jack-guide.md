@@ -98,9 +98,9 @@ MAX4410 amplifier boards in the other hand have all of its grounds merged, which
 
 Only caveat with MAX4410 amplifiers is that, possibly due to merged grounds, the noise floor might be a bit high, meaning that you would hear some white noise when connecting headphones. In practice it's almost unnoticeable when playing but when no audio is playing some white noise might be heard. Also take into account that these amplifiers are **_loud_**.
 
-In order to keep the amplifiers somewhat in place a small box was *made* to put them inside and have them inside the cabinet. The model for 3D printing can be found here: https://www.printables.com/model/1699313-max4410-amplifier-boards-boxes
+In order to keep the amplifiers somewhat in place a small enclosure was made to put them inside and have them inside the cabinet. The model for 3D printing can be found here: https://www.printables.com/model/1699313-max4410-amplifier-boards-enclosures
 
-You can see examples of the box starting from [[audio-jack-guide#^max4410-setup|here]].
+You can see examples of the enclosure starting from [[audio-jack-guide#^max4410-setup|here]].
 
 The audio jacks are positioned just below the deck, trying to keep them under the player buttons like in a Lightning Model cabinet, and to keep it fancy (and secured) a little 3D printed bracket was set up, made by @roxandtol: [https://www.printables.com/model/1624880-pj392a-bracket-for-iidx](https://www.printables.com/model/1624880-pj392a-bracket-for-iidx "https://www.printables.com/model/1624880-pj392a-bracket-for-iidx")
 
@@ -133,14 +133,14 @@ These brackets are attached using the M5 screws that you can find below the deck
 ![[audio-jack/amp-setup-ha400.jpg]]*Amplifier setup with HA400 amplifiers (discarded)*
 ^ha400-setup
 
-![[audio-jack/max4410-box2.jpg]]*MAX4410 boards inside 3D printed box*
+![[audio-jack/max4410-box2.jpg]]*MAX4410 boards inside 3D printed enclosure*
 ^max4410-setup
 
 ![[audio-jack/max4410-box3.jpg]]*Amplifier setup with MAX4410 boards*
 ^max4410-setup2
 
-![[audio-jack/max4410-box.jpg]]*MAX4410 boards inside 3D printed box with soldered components*
+![[audio-jack/max4410-box.jpg]]*MAX4410 boards inside 3D printed enclosure with soldered components*
 ^max4410-box
 
-![[audio-jack/max4410-box4.jpg]]*MAX4410 box from behind, showing jack inputs and outputs, and DC input*
+![[audio-jack/max4410-box4.jpg]]*MAX4410 enclosure from behind, showing jack inputs and outputs, and DC input*
 ^max4410-box2

@@ -79,13 +79,13 @@ tags:
 > 	- https://es.aliexpress.com/item/1005009892980105.html
 > 		- Connectors: https://es.aliexpress.com/item/4000231478837.html
 
-This section contains all related documentation, notes and results related the process of setting up existing LED lights in a Tricoro cabinet to behave like the lights of a LM cabinet, while making use of the BIO2 dedicated connections that are already programmed for this purpose on LM cabinets.
+This section contains all related documentation, notes and results related the process of setting up existing LED lights in a Tricoro cabinet to behave like the lighting of a LM cabinet, while making use of the BIO2 dedicated connections that are already programmed for this purpose on LM cabinets.
 ## DC OUT
-According to the manual, all grounds are merged to the PSU's ground, therefore you can use the DC OUT connection which the cable itself is an extension of the PSU's molex. Alternatively you may use a molex cable and splice 12V and GND from it.
+According to the manual, all grounds are merged to the PSU's ground, therefore you can use the DC OUT connection, which the cable itself is an extension of the PSU's molex. Alternatively you may use a molex cable and splice 12V and GND from it.
 ![[rgb-wiring/dc-out.jpg]]
 ## RGB Lights wiring outline
  > [!tldr] Planning
-> - According to LM's manual, both +12V and GND are taken from DC OUT (PCB's PSU), meaning that all related grounds to RGB LEDs close the circuit in the same ground would need to be connected to the BIO2 and finally the PSU, since the BIO2 also feeds from the PSU. This would be:
+> - According to LM's manual, both +12V and GND are taken from DC OUT (PCB's PSU), meaning that all related grounds to RGB LEDs close the circuit in the same ground as the BIO2, and then the BIO2 closes circuit in the PSU, since the BIO2 also feeds from it. This would be:
 > 	- TT LED colors
 > 	- Woofer LED colors
 > 	- Reader LED colors

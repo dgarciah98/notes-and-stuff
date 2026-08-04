@@ -98,11 +98,13 @@ MAX4410 amplifier boards in the other hand have all of its grounds merged, which
 
 Only caveat with MAX4410 amplifiers is that, possibly due to merged grounds, the noise floor might be a bit high, meaning that you would hear some white noise when connecting headphones. In practice it's almost unnoticeable when playing but when no audio is playing some white noise might be heard. Also take into account that these amplifiers are **_loud_**.
 
-In order to keep the amplifiers somewhat in place a small enclosure was made to put them inside and have them inside the cabinet. The model for 3D printing can be found here: https://www.printables.com/model/1699313-max4410-amplifier-boards-enclosures
+In order to keep the amplifiers somewhat in place a small enclosure was made to put them inside and have them inside the cabinet. The model for 3D printing can be found here: 
+<iframe src="https://www.printables.com/embed/1699313" width="640" height="190" scrolling="no" frameborder="0"></iframe>
 
 You can see examples of the enclosure starting from [[audio-jack-guide#^max4410-setup|here]].
 
-The audio jacks are positioned just below the deck, trying to keep them under the player buttons like in a Lightning Model cabinet, and to keep it fancy (and secured) a little 3D printed bracket was set up, made by @roxandtol: [https://www.printables.com/model/1624880-pj392a-bracket-for-iidx](https://www.printables.com/model/1624880-pj392a-bracket-for-iidx "https://www.printables.com/model/1624880-pj392a-bracket-for-iidx")
+The audio jacks are positioned just below the deck, trying to keep them under the player buttons like in a Lightning Model cabinet, and to keep it fancy (and secured) a little 3D printed bracket was set up, made by @roxandtol:
+<iframe src="https://www.printables.com/embed/1624880" width="640" height="190" scrolling="no" frameborder="0"></iframe>
 
 These brackets are attached using the M5 screws that you can find below the deck. You can see references [[audio-jack-guide#^audio-jack-case|here]] and [[audio-jack-guide#^audio-jack-case2|here]].
 # Results

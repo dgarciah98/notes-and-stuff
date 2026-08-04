@@ -8,12 +8,6 @@ tags:
   - arcade-cabs
   - lm-convert
 ---
-> [!warning] WIP
-> - Reader LEDs not installed
-
->[!tldr] TODO
->- Add results for reader LEDs
-
 > [!warning] Proceed with Caution
 > ### Careful when making the harnesses for this part
 > You will need at least 24 AWG wire for most connections, specially for feeding +12V to the LEDs, and also keep the same gauge size for grounds. Wires that carry signals should be fine with smaller gauge.
@@ -175,15 +169,32 @@ In the way upwards you can find (or rather, touch) a knot where the original har
 - LED bridge cable length: 15cm
 - Cable length: ~80cm each
 	- From last-end connector to LED PCB
-> [!warning] WIP
 
 ![[rgb-wiring/reader-lights-wiring.svg]]
 
 Reader LEDs current and ground are being taken from COM1, +12V comes directly from PSU and ground is taken from PCB's serial.
 
-In this case I used pin 4 from COM1 to take current for the LEDs (benefiting from the workaround I did for the [[arcade-cabs/iidx-epolis-upgrade#2. Build a JST connector|EPOLIS upgrade]]) and spliced the GND pin in order to merge both the ground for the serial and the lights. ([[rgb-lights-guide#^com1-wiring|reference]])
+In this case, pin 4 from COM1 was used to take current for the LEDs (benefiting from the workaround I did for the [[../iidx-epolis-upgrade#2. Build a JST connector|EPOLIS upgrade]]) and spliced the GND pin in order to merge both the ground for the serial and the lights. ([[rgb-lights-guide#^com1-wiring|reference]])
 
 The remaining harnesses were built according to the diagram above.
+
+ Since I had some free unused LED boards that were taken from [[ws2812b-lights-guide#UPPER|working on the top speaker]], I figured to repurpose some boards for this case.
+ 
+ ![[rgb-wiring/iidx-rgb-leds.jpg]]
+
+These should be fine since they are the same kind as the LED boards found in LM readers, the only difference is that LM readers have boards of 3 LEDs instead of four, but the rest is exactly the same, like turntable and woofer LEDs.
+
+The workaround to have these boards attached to the readers was to design a support that would hold them while sitting on the assembly found in a Tricoro panel. These supports were 3D printed and you can find them here: `TODO`
+![[rgb-wiring/rgb-led-support.jpg]]
+![[rgb-wiring/rgb-led-support2.jpg]]
+
+These supports are designed to sit right on one of the pieces of the assembly which covers the reader itself, and holds the boards with some 3D printed push-fit buttons. You can see the result starting from [[rgb-lights-guide#^iidx-rgb-leds-supports|here]].
+![[rgb-wiring/reader-lights-inside-results.jpg]]
+![[rgb-wiring/reader-lights-inside-results2r.jpg]]
+
+Once everything is setup and wired, the will just light up when the game get's to the title screen and will have this nice rainbow effect. A demonstration of how it looks when carding in can be seen [[rgb-lights-guide#^reader-lights-demo|here]].
+![[rgb-wiring/reader-led-setup.mp4]]
+*Inside view of the reader setup with the LED boards*
 
 ---
 ### Turntables
@@ -255,3 +266,11 @@ The following pictures show how the LED board connector looks when unplugged, I 
 
 ![[rgb-wiring/reader-lights-results2.jpg]]
 *IC/W LED connector and IC LED connectors*
+
+![[rgb-wiring/iidx-rgb-leds-supports.jpg]]
+*Top speaker LED boards with supports and harness for IC LED lights*
+^iidx-rgb-leds-supports
+
+![[rgb-wiring/reader-led-demo.mp4]]
+*Reader LEDs reacting to card-in signal*
+^reader-lights-demo

@@ -12,7 +12,7 @@ description: Songs for practicing double pedal or left pedal
 ![[dk-video-1.jpg]]![[dk-video-2.jpg]]![[dk-video-3.jpg]]![[dk-video-4.jpg]]![[dk-video-5.jpg]]
 ## Canciones
 > [!tip] Video
-> > ![](https://www.youtube.com/watch?v=zgQMe-jKxtE)
+> > ![](https://youtu.be/jg3z0bzMD_U)
 
 |Canción|Dificultad|Skill Actual|Skill Subida|Juego|BPM|
 |---|---|---|---|---|---|

@@ -178,9 +178,13 @@ In this case, pin 4 from COM1 was used to take current for the LEDs (benefiting 
 
 The remaining harnesses were built according to the diagram above.
 
- Since I had some free unused LED boards that were taken from [[ws2812b-lights-guide#UPPER|working on the top speaker]], I figured to repurpose some boards for this case.
- 
- ![[rgb-wiring/iidx-rgb-leds.jpg]]
+ Since I had some free unused LED boards that were taken from [[ws2812b-lights-guide#UPPER|working on the top speaker]], I figured to repurpose some boards for this case. Anyhow, you might use any kind of RGB LED tape or board as long it has a common anode and each pin for colours act as ground, as mentioned in the [IIDX Gender Affirmation Surgery guide](https://docs.google.com/document/u/0/d/e/2PACX-1vSbuydsZMF6iAVXuimRPdbduLPOiN8MXTouWZ5hBh0vGj5idvvYUR7WGNZ7ItnZblYWnQOS1VakZ567/pub?pli=1):
+ > [!quote] Installing And Driving The LEDs
+The RGB LEDs are 12V, and wired to be Common Anode; that means all 3 LEDs (R, G, B) will have 12V connected to its VCC at all times, and the voltage of “GND” will change to control the brightness.
+>
+>If you want to use a pre-made LED strip, you could search for 12V 5050 LED strips, such as [this listing on AliExpress.](https://www.google.com/url?q=https://www.aliexpress.com/item/1005004251271310.html&sa=D&source=editors&ust=1785887562211680&usg=AOvVaw30iWs7cCtbXZ4_7jMG8RdA) Make sure that the strip takes 12V and 3 negatives for each colour.
+  
+![[rgb-wiring/iidx-rgb-leds.jpg]]
 
 These should be fine since they are the same kind as the LED boards found in LM readers, the only difference is that LM readers have boards of 3 LEDs instead of four, but the rest is exactly the same, like turntable and woofer LEDs.
 

@@ -10,7 +10,7 @@ tags:
 ---
 # Lightning Convert with Tricoro Cab
 > [!NOTE] Further documentation
-> You might want to check out @kokoseij's guide for further documentation and details, especially for older IIDX cabinet versions:
+> You might want to check out @kokoseij's guide for further documentation, options and details, especially for older IIDX cabinet versions:
 > > [!tip] [IIDX Gender Affirmation Surgery Guide](https://docs.google.com/document/d/e/2PACX-1vSbuydsZMF6iAVXuimRPdbduLPOiN8MXTouWZ5hBh0vGj5idvvYUR7WGNZ7ItnZblYWnQOS1VakZ567/pub "https://docs.google.com/document/d/e/2PACX-1vSbuydsZMF6iAVXuimRPdbduLPOiN8MXTouWZ5hBh0vGj5idvvYUR7WGNZ7ItnZblYWnQOS1VakZ567/pub")
 > 
 > Big shout out to the Rhythm Game Cabs Discord server which is where I've gathered most of this info.
@@ -78,12 +78,12 @@ The screen will be connected to the graphic's card DisplayPort. If your screen o
 ### Touchscreen
 > [!tip] Shameless adversiting
 > If you're willing to pay a significant amount of money for a panel 
-that just works:tm: and looks premium, I really recommend to get Ghost Hardware's upgrade kit, which also comes with start, effect and VEFX button plates, check them out!
+that just works™ and looks premium, here's a big shout out to Ghost Hardware, I really recommend to get their upgrade kit, which also comes with start, effect and VEFX button plates, check them out!
 > >[!check] Ghost Hardware
 > >https://ghosthardwa.re/
 > >https://ghosthardwa.re/products/lightning-upgrade-kit?variant=54128168468820
 > 
-> Here's an example with the cabinet used in this guide:
+> Here's an example of how the kit looks with the cabinet used in this guide:
 > ![[convert/iidx-lm-upgrade-kit-gh.jpg]]
 
 Any touchscreen that complies with the characteristics above should be enough.
@@ -111,7 +111,7 @@ For this you will need to make an extension harness with fastons terminals for b
 
 For start buttons, an approach inspired by a solution made by Lain was taken, which was 3D printing some buttons that would be placed on top of the instruction card acrylic. Lain's solution can be seen in the following video: ![](https://x.com/xx_lain/status/1862257037033255246)
 
-The start buttons consist of a custom design for the button itself, originally designed by @roxandtol, Kailh Choc V1 switches since this kind had the hardest switches available of 80g, keycaps for these switches, and a small stopper to hide the hole where all the wires are being pass through.
+The start buttons consist of a custom design for the button itself, originally designed by @roxandtol, Kailh Choc V1 switches since this kind had the hardest switches available of 70g, keycaps for these switches, and a small stopper to hide the hole where all the wires are being pass through. Also keep in mind that the wires have to be small enough to fit through the hole, a gauge of at least AWG 26 should be enough.
 ![[convert/start-button.jpg|697]]
 *1P Start button with stopper*
 
@@ -123,7 +123,7 @@ The wiring itself is basically the same as the original buttons: two for the swi
 ![[convert/start-button-result2.jpg]]
 *Start buttons result with all lights on*
 ### BIO2
-If you got a CCJ for the upgrade needed to run EPOLIS, then you may have a spare BIO2 with BI2X already flashed, otherwise you may have to flash your BIO2.
+If you got a CCJ for the upgrade needed to run EPOLIS, then you may have a spare BIO2 with BI2X already flashed, otherwise you may have to flash your BIO2. You might want to check the [IIDX Gender Affirmation Surgery Guide](https://docs.google.com/document/u/0/d/e/2PACX-1vSbuydsZMF6iAVXuimRPdbduLPOiN8MXTouWZ5hBh0vGj5idvvYUR7WGNZ7ItnZblYWnQOS1VakZ567/pub?pli=1) for more details on this topic.
 
 How do you know if you have the correct one? On Windows, when connecting the board to a PC, you can check its PID on the Device Manager, if the PID is `8050`, then it's good to go, otherwise if it's `8040`/`804C`, then it still has BI2A firmware.
 

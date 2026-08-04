@@ -83,7 +83,16 @@ Some solutions for this part of the convert make use of 3D printed objects, whic
 ## WS2812b lights wiring outline 
 ![[ws2812b-wiring/cn18-wiring.svg]]
 
-For this you will likely need an external PSU in order to feed all the required LEDs, since the PCB's PSU probably will not be enough. The LED data is taken out from CN18.
+For this you will likely need an external PSU in order to feed all the required LEDs, since the PCB's PSU probably will not be enough. 
+
+A LM cabinet uses a 150W PSU, and given the amount of LEDs that need to be powered and assuming all are 5050 LEDs, the math checks out. In my case, I worked with 2020 LEDs, and at the time of writing I'm still missing some LED sections (only did COMPANE, UPPER and TP SIDE), there with this many LEDs of this kind the power consumption doesn't reach 150W at all, so if you reach at this point using 2020 LEDs, you can safely use a 100W PSU. If you plan on setting all LEDs with 5050 tapes, you might as well get a 150W PSU, or a 200W PSU even, if you want to make sure the LEDs aren't underpowered.
+
+The LED data for each LED circuit is taken out from CN18.
+![[cn18-result.jpg]]*CN18 populated with some data wires*
+
+The following picture shows the corresponding harness to DC TAPE LED, connecting TAPE_LED_PSU and TAPE_LED_BIO2 in the diagram above. This harness connects all the 5V and ground wires coming from the PSU (which can be faintly seen further away in the image) to every branching wire that goes to each LED circuit, merging also into the 5V IN and GND pins from BIO2.
+![[ws2812b-wiring/dc-tape-led-result.jpg]]
+*Corresponding harness to DC TAPE LED, merging TAPE_LED_PSU*
 ## LED tapes
 ### Measurements
 - Used diffusors are the following

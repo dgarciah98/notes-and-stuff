@@ -22,3 +22,4 @@ package-lock.json
 **/.obsidian/plugins/
 **/.obsidian/*.json
 **/.quartz-cache/
+.quartz

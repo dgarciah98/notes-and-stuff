@@ -109,13 +109,15 @@ For this you will need to make an extension harness with fastons terminals for b
 ![[convert/insert-coin-buttons.jpg]]
 *Insert Coin plate with custom art and holes for the Effect and VEFX buttons*
 
-For start buttons, an approach inspired by a solution made by Lain was taken, which was 3D printing some buttons that would be placed on top of the instruction card acrylic. Lain's solution can be seen in the following video: ![](https://x.com/xx_lain/status/1862257037033255246)
+For start buttons, an approach inspired by a solution made by Lain was taken, which was 3D printing some buttons that would be placed on top of the instruction card acrylic. Lain's solution can be seen in the following video: https://x.com/xx_lain/status/1862257037033255246
 
-The start buttons consist of a custom design for the button itself, originally designed by @roxandtol, Kailh Choc V1 switches since this kind had the hardest switches available of 70g, keycaps for these switches, and a small stopper to hide the hole where all the wires are being pass through. Also keep in mind that the wires have to be small enough to fit through the hole, a gauge of at least AWG 26 should be enough.
+The start buttons consist of a custom design for the button itself, originally modeled by @roxandtol, Kailh Choc V1 switches were used since this kind had the hardest switches available of 70g, keycaps for these switches, and a small stopper to hide the hole where all the wires are being pass through. Also keep in mind that the wires have to be small enough to fit through the hole, a gauge of at least AWG 26 should be enough.
 ![[convert/start-button.jpg|697]]
 *1P Start button with stopper*
 
 The wiring itself is basically the same as the original buttons: two for the switch and other two for a LED light. These wires have been passed through one of the instruction card screw holes, and then merged on a non-destructive splice of the original button wires, made on the faston connectors.
+
+You can find the 3D printable model for these buttons and some variations of the same in the following link: `TODO`
 ![[convert/start-button-wiring.jpg]]
 *Insert Coin plate with custom art and holes for the Effect and VEFX buttons*
 

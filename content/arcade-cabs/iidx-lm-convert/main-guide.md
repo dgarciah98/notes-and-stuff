@@ -110,6 +110,7 @@ For this you will need to make an extension harness with fastons terminals for b
 *Insert Coin plate with custom art and holes for the Effect and VEFX buttons*
 
 For start buttons, an approach inspired by a solution made by Lain was taken, which was 3D printing some buttons that would be placed on top of the instruction card acrylic. Lain's solution can be seen in the following video: https://x.com/xx_lain/status/1862257037033255246
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">LM style start buttons for old cabinets<br>Non destructive, low profile. wires run through the top screw-hole and connect directly to the original start button switch <a href="https://t.co/X2sJnMq0EP">pic.twitter.com/X2sJnMq0EP</a></p>&mdash; lain ☘️ (@xx_lain) <a href="https://x.com/xx_lain/status/1862257037033255246?ref_src=twsrc%5Etfw">November 28, 2024</a></blockquote>
 
 The start buttons consist of a custom design for the button itself, originally modeled by @roxandtol, Kailh Choc V1 switches were used since this kind had the hardest switches available of 70g, keycaps for these switches, and a small stopper to hide the hole where all the wires are being pass through. Also keep in mind that the wires have to be small enough to fit through the hole, a gauge of at least AWG 26 should be enough.
 ![[convert/start-button.jpg|697]]

@@ -51,6 +51,7 @@ You will also need to put back the original turntable teeth discs, or at least s
 
 Instead of using the original aluminium discs, some 3D printed discs were used for this purpose. These discs were designed by @roxandtol, you can find them in the following link: 
 <iframe src="https://www.printables.com/embed/1525394" width="640" height="190" scrolling="no" frameborder="0"></iframe>
+
 ![[convert/tt-disc1.jpg]]
 *3D printed 72-tooth disc*
 
@@ -105,6 +106,9 @@ Since the subscreen, as set according to the previous section, will be blocking 
 In my case, I took a different approach, instead of using his printed models, I opted for using an acrylic piece and aluminium plate like the original Insert Coin plate, which I think it fits more with the overall look. The models and art used for the new Insert Coin plate are made by @dj_shoko and can be found in the Rhythm Game Cabs discord.
 
 For this you will need to make an extension harness with fastons terminals for both the connectors that come from the cab and the switches. Making these cables and running them is a pretty straightforward job. The coin section is accessible from behind the front panel and reaching through the center of the deck with your hand.
+
+> TODO: maybe add pictures from inside the deck/front panel
+
 ![[convert/vefx-effect-extension.jpg]]
 ![[convert/insert-coin-buttons.jpg]]
 *Insert Coin plate with custom art and holes for the Effect and VEFX buttons*

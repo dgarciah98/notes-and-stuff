@@ -49,7 +49,7 @@ Other cabinet models will need ICCC readers (called "blue readers") and a rewiri
 
 You will also need to put back the original turntable teeth discs, or at least some discs that have 72 teeth instead of 144, and with its original mounts if you changed them for the same mod, since BI2X firmware reads a half-pulse signal, which results in having the same sensitivity as having a 144-tooth disc on LDJ.
 
-Instead of using the original aluminium discs I've used 3D printed discs. Design made by @roxandtol: 
+Instead of using the original aluminium discs, some 3D printed discs were used for this purpose. These discs were designed by @roxandtol, you can find them in the following link: 
 <iframe src="https://www.printables.com/embed/1525394" width="640" height="190" scrolling="no" frameborder="0"></iframe>
 ![[convert/tt-disc1.jpg]]
 *3D printed 72-tooth disc*

@@ -151,12 +151,12 @@ Inside the woofer box you can see the holes that correspond to the ones in the [
 ![[rgb-wiring/woofer-inside2.jpg]]
 ![[rgb-wiring/woofer-inside3.jpg]]
 
-To pass the harnesses you may use one of the holes inside the cab that were shown in the Audio Jack section, in the same fashion as for the audio cables. The following pictures show through where I've been running the harness through up to the LEDs:
+To pass the harnesses you may use one of the holes inside the cab that were shown in the Audio Jack section, in the same fashion as for the audio cables. The following pictures show through where you can run the harness up to the woofer LEDs:
 ![[rgb-wiring/woofer-runthrough.jpg]]
 ![[rgb-wiring/woofer-runthrough2.jpg]]
 ![[rgb-wiring/woofer-runthrough3.jpg]]
 
-For this last section I've ran the harness through the same hole as the original harness, which is in the innermost corner (this is the P2 woofer, so it is located at the right).
+For this last section, the new harness was run through the same hole as the original harness, which is in the innermost corner (this is the P2 woofer, so it is located at the right).
 
 In the way upwards you can find (or rather, touch) a knot where the original harness is held so it doesn't fall through the hole, you may use it too for the new harness.
 ![[rgb-wiring/woofer-runthrough4.jpg]]

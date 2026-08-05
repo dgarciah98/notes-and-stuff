@@ -101,6 +101,8 @@ The subscreen will be connected to the graphics card first HDMI (labelled HDMI 1
 ![](convert/subscreen-mount4.jpg)![](convert/subscreen-mount1.jpg)![](convert/subscreen-mount3.jpg)![](convert/slider-pcb.jpg)
 ![](convert/subscreen-mount2.jpg) 
 ### Buttons
+> [!tip] This section is optional, but recommended
+
 Since the subscreen, as set according to the previous section, will be blocking the Effect and VEFX buttons, a good idea would be to move said buttons to the Insert Coin plate like in Kursain's guide.
 
 In my case, I took a different approach, instead of using his printed models, I opted for using an acrylic piece and aluminium plate like the original Insert Coin plate, which I think it fits more with the overall look. The models and art used for the new Insert Coin plate are made by @dj_shoko and can be found in the Rhythm Game Cabs discord.

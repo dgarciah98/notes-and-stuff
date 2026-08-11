@@ -2,6 +2,7 @@
 title: Arcade parts links
 alias:
   - Arcade parts links
+draft: "true"
 ---
 # Arcade parts links
 

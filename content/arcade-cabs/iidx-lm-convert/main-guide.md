@@ -124,7 +124,9 @@ The start buttons consist of a custom design for the button itself, originally m
 
 The wiring itself is basically the same as the original buttons: two for the switch and other two for a LED light. These wires have been passed through one of the instruction card screw holes, and then merged on a non-destructive splice of the original button wires, made on the faston connectors.
 
-You can find the 3D printable model for these buttons and some variations of the same in the following link: `TODO`
+You can find the 3D printable model for these buttons and some variations of the same in the following link: 
+<iframe src="https://www.printables.com/embed/1699253" width="640" height="190" scrolling="no" frameborder="0"></iframe>
+
 ![[convert/start-button-wiring.jpg]]
 *Insert Coin plate with custom art and holes for the Effect and VEFX buttons*
 

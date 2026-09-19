@@ -22,6 +22,7 @@ tags:
 > If any link stops working, just try to searching for the piece in specific for the time being, you'll probably find it.
 > - #### CN18 (lights output): 
 > 	- PHDR-16VS: 
+> 		- You might want to depin and then crimp cables with a bigger gauge if you get harnesses with smaller gauges
 > 		- 26 AWG Harness (2x8P): https://es.aliexpress.com/item/1005004746953918.html
 > 		- 24 AWG harness (2x8P): https://es.aliexpress.com/item/1005005169172801.html
 > 		- 22 AWG harness: https://es.aliexpress.com/item/1005009277050529.html
@@ -45,9 +46,10 @@ tags:
 > 	- T0511 Tape diffusor (for compane): https://es.aliexpress.com/item/1005008376388272.html
 > 	- D1313 180º Tape diffusor (for TP sides) https://es.aliexpress.com/item/1005008109124457.html
 > 	- Spotlights alternative:
-> 		- WS2812B boards (3bit and 1bit): https://es.aliexpress.com/item/1005007503733494.html
+> 		- WS2812B 5050 boards (3bit and 1bit): https://es.aliexpress.com/item/1005007503733494.html
+> 		- LED 5050 Reflection lenses 30º: https://es.aliexpress.com/item/1005010252822943.html
 > - #### DC TAPE LED
-> 	- RECOMMENDED to use 22 AWG cable for feeding 5V to all tapes
+> 	- RECOMMENDED to use 22 AWG cable or bigger for feeding 5V to all tapes
 > 	- XADR-20V -> XADRP-20V -> CN18 (PHDR-16VS) & LEDs
 > 		- XADR-20V:
 > 			- Connector: https://es.aliexpress.com/item/1005008510643553.html
@@ -56,7 +58,7 @@ tags:
 > 			- Connector: https://www.aliexpress.com/item/1005007898440466.html
 > 			- Terminals (SXA-001T-P0.6): https://es.aliexpress.com/item/1005004425152785.html
 > - #### External PSU
-> 	- MEAN WELL 5V 90W LRS-100-5 PSU
+> 	- MEAN WELL 5V 40A 200W LRS-200-5 PSU
 
 This section contains all related documentation, notes and results related the process of installing and setting up addresssable LED lights on a Tricoro cabinet, in order to behave and look like the light system of a LM cabinet, while making use of the BIO2 dedicated connections that are already programmed for this purpose on LM cabinets.
 

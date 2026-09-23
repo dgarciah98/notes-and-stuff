@@ -76,7 +76,7 @@ The audio cables were made with a length of **~180cm** (shorter than I would lik
 >In the case of seahorse PCBs, the only difference on the audio cable would be that to connect to the PCB, one end should be a XHP-4 JST connector, the rest should be kept as is.
 >If headphone detection is not working properly, you may want to try merging either left or right channels into ground on the PCB (thanks @tauakiou)
 >
->![[audio-jack/seahorse.avif]] 
+>![[audio-jack/seahorse.jpg]] 
 >*Seahorse PCB replica*
 
 The audio cables can be taken outside through some holes that can be found inside the cabinet, you can see that through some of them the wires for the woofer speakers and woofer LED lights are being passed through, I used the one that is further away (third hole) which also connects directly outside unlike the other ones, which are covered with a metal plate.

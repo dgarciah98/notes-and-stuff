@@ -65,8 +65,19 @@ The second solution ensures that the headphones will work properly since the gam
 >First thing to take into account is that the respective outputs for each player on the XONAR are as it follows, from top to bottom:
 >- P1: SIDE output (last port)
 >- P2: REAR OUTPUT (4th port)
+>
+>![[audio-jack/xonar-ae-pinout.webp]]
+>*Asus Xonar AE pinout*
 
 The audio cables were made with a length of **~180cm** (shorter than I would like, 200cm may be better) and by soldering TRRS/4-pole female jack plugs with TRS/3-pole male jack plugs, leaving the female jack's mic pin separated for crimping and inserting it in their respective HP DETECT pin. (References can be seen [[audio-jack-guide#^audio-cables|here]] and [[audio-jack-guide#^cn15-with-detect|here]]). Additionally I also made a harness for "easier" management of HP DETECT pins, as shown [[audio-jack-guide#^hp-detect-harness|here]].
+
+>[!fyi] Using headphone PCBs instead
+>Alternatively, instead of having directly connected female jacks, one can use instead the headphone PCBs used in several KONAMI cabinets, known as "seahorse", or their replicas (https://github.com/veypatch/SDVX-aux-board). Or virtually any headphone jack PCB that you may find anywhere.
+>In the case of seahorse PCBs, the only difference on the audio cable would be that to connect to the PCB, one end should be a XHP-4 JST connector, the rest should be kept as is.
+>If headphone detection is not working properly, you may want to try merging either left or right channels into ground on the PCB (thanks @tauakiou)
+>
+>![[audio-jack/seahorse.avif]] 
+>*Seahorse PCB replica*
 
 The audio cables can be taken outside through some holes that can be found inside the cabinet, you can see that through some of them the wires for the woofer speakers and woofer LED lights are being passed through, I used the one that is further away (third hole) which also connects directly outside unlike the other ones, which are covered with a metal plate.
 ![[audio-jack/audio-cable-runthrough.jpg]]

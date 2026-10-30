@@ -31,8 +31,6 @@ export default ((opts?: Partial<ContentMetaOptions>) => {
       const segments: (string | JSX.Element)[] = []
       const dates = fileData.dates
       var lastModifiedDate: (string | JSX.Element)[] = []
-      console.log(fileData.frontmatter?.title)
-      console.log(fileData.dates)
       if (dates) {
         if(dates.modified && dates.modified !== dates.created)
           lastModifiedDate.push(<Date date={getDateByDateType("modified", fileData)!} locale={cfg.locale} />)

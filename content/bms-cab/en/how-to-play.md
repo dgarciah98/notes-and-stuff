@@ -15,6 +15,16 @@ tags:
 > - Discord: @elmiamiman
 > - Telegram: @ElMiamiMan
 
+> [!tip] # FEATURED EVENT: [THE BMS OF FIGHTERS 22](https://www.bmsoffighters.net/bof22/index.html)
+> This event's new songs are now available to play!
+> They will be available during the event's impression period:
+> `01/10/2026 23:00 JST - 06/12/2026 23:59 JST`
+> 
+> If you want to leave your impression for any song, access the event's song list and find it there: http://manbow.nothing.sh/event/event.cgi?action=List_def&event=152
+> 
+> You can find the event's pack in its respective folder:
+> ![[../img/featured-event.png]]
+
 This section will assume you're using Luxe Flat's Music Select, also for reference.
 # Selecting your profile
 Before getting into the game, make sure to pick your profile first. In Endless Dream you can change it in-game by using the Mod Menu, which you can open by pressing F5 on the keyboard, and it should look like this:

@@ -34,6 +34,7 @@ This section will assume you're using Luxe Flat's Music Select, also for referen
 > You can play with the available guest profiles, ready for each play side. You'll have to set your own settings each time though!
 > - 1P Profile: `nextage`
 > - 2P Profile: `nextage2p`
+>   
 > ![[../img/guest-profiles.png]]
 
 Before getting into the game, make sure to pick your profile first. In Endless Dream you can change it in-game by using the Mod Menu, which you can open by pressing F5 on the keyboard, and it should look like this:

@@ -34,6 +34,7 @@ En esta sección se dará por hecho que estás usando el Music Select de Luxe Fl
 > Puedes jugar con los perfiles genéricos, preparados para el lado en el que juegues. ¡Ten en cuenta que seguramente tengas que cambiar la configuración cada vez que lo uses!
 > - Perfil de 1P: `nextage`
 > - Perfil de 2P: `nextage2p`
+>   
 > ![[../img/guest-profiles.png]]
 
 Antes de entrar al juego, asegúrate de seleccionar primero tu perfil. En Endless Dream puedes cambiarlo dentro del juego mediante el Mod Menu, que puedes abrir pulsando F5 en el teclado. Debería salir un menú así:

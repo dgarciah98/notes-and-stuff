@@ -16,6 +16,7 @@ tags:
 > - Telegram: @ElMiamiMan
 
 > [!tip] # FEATURED EVENT: [THE BMS OF FIGHTERS 22](https://www.bmsoffighters.net/bof22/index.html)
+> ![[../img/event_logo.png]]
 > This event's new songs are now available to play!
 > They will be available during the event's impression period:
 > `01/10/2026 23:00 JST - 06/12/2026 23:59 JST`

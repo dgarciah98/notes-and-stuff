@@ -131,20 +131,20 @@ Some tables may have different symbols or straight up different signatures (like
 #### Specific skillsets
 - Timing
 	- [Timing Table (点)](https://plyfrm.github.io/table/timing/): Charts with Hard Judge, different ratings depending on difficulty and density
-- Chords
+- Chords: Multiple notes at once
 	- [Ude table](https://lets-go-time-hell.github.io/Arm-Shougakkou-table/): Satellite level chord charts. From Ude0 up to Ude12
 		- Ude0 corresponds to sl0 and so on
 	- [16分乱打 (乱打)](https://lets-go-time-hell.github.io/code-stream-table/): Satellite and Stella level chordstream charts. From 乱打0 up to 乱打12 and from 重発狂0 up to 重発狂12
 		- 乱打0 corresponds to sl0 and so on
 		- 重発狂0 corresponds to st0 and so on
-- Scratch
+- Scratch: Turntable patterns
 	- [Scramble table (SB)](https://egret9.github.io/Scramble/): Updated scratch table. From SB-1 up to SB12
 	- [Scratch table (◎)](http://minddnim.web.fc2.com/sara/3rd_hard/bms_sara_3rd_hard.html): From ◎-1 up to ◎16
 		- ◎7 equals to 灼熱 Pt.2 Long Train Running SPA in terms of difficulty
 - Long notes
 	- [Luminous (ln)](https://ladymade-star.github.io/luminous/table.html): Updated LN table. From ln1 up to ln26
 	- [LN table ()](http://flowermaster.web.fc2.com/lrnanido/gla/LN.html): From ◆1 up to ◆26
-- Delay
+- Delay: Patterns where one note is split into two or more notes, usually ranges from quick bursts to stairs
 	- [Delay小学校 (///)](https://wrench616.github.io/Delay/): Satellite level delay charts. From ///-1 up to ///13	
 	- [DELAY training table (早い)](https://kamikaze12345.github.io/github.io/delaytrainingtable/table.html): From 早い0 up to 早い32
 		- 早い0 to 早い19 covers from ★1 up to ★19

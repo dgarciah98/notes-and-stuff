@@ -127,22 +127,22 @@ Algunas tablas pueden utilizar símbolos distintos o directamente otra notación
 - [Dystopia (dy)](https://monibms.github.io/Dystopia/dystopia.html): Tabla Overjoy de alta dificultad, desde dy0 hasta dy10
 	- dy0 a dy7 abarcan desde st5 hasta st12; dy8 en adelante supera la dificultad de st12
 #### Habilidades específicas
-- Timing
+- Timing:
 	- [Timing Table (点)](https://plyfrm.github.io/table/timing/): Charts con Hard Judge, clasificados con diferentes niveles según su dificultad y densidad
-- Acordes (Chords)
+- Acordes (Chords): Multiples notas de una vez
 	- [Ude table](https://lets-go-time-hell.github.io/Arm-Shougakkou-table/): Charts de acordes con niveles Satellite. Desde Ude0 hasta Ude12
 	    - Ude0 equivale a sl0, y así sucesivamente
 	- [16分乱打 (乱打)](https://lets-go-time-hell.github.io/code-stream-table/): Charts de tipo chordstream con niveles Satellite y Stella. Desde 乱打0 hasta 乱打12 y desde 重発狂0 hasta 重発狂12
 		 - 乱打0 equivale a sl0, y así sucesivamente
 		 - 重発狂0 equivale a st0, y así sucesivamente
-- Scratch
+- Scratch: Patrones dirigidos al plato
 	- [Scramble table (SB)](https://egret9.github.io/Scramble/): Tabla de Scratch actualizada. Desde SB-1 hasta SB12
 	- [Scratch table (◎)](http://minddnim.web.fc2.com/sara/3rd_hard/bms_sara_3rd_hard.html): Desde ◎-1 hasta ◎16
 	    - ◎7 equivale, en términos de dificultad, a 灼熱 Pt.2 Long Train Running SPA
 - Notas largas (LN)
 	- [Luminous (ln)](https://ladymade-star.github.io/luminous/table.html): Tabla LN actualizada. Desde ln1 hasta ln26
 	- [LN table ()](http://flowermaster.web.fc2.com/lrnanido/gla/LN.html): Desde ◆1 hasta ◆26
-- Delay
+- Delay: Patrones en los que, lo que sería una sola nota, se divide en dos o más, suele consistir desde sucesiones rápidas de dos botones hasta escaleras
 	- [Delay小学校 (///)](https://wrench616.github.io/Delay/): Charts de Delay con niveles Satellite. Desde ///-1 hasta ///13
 	- [DELAY training table (早い)](https://kamikaze12345.github.io/github.io/delaytrainingtable/table.html): Desde 早い0 hasta 早い32
 	    - 早い0 a 早い19 abarcan desde ★1 hasta ★19

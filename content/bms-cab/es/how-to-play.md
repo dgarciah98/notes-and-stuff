@@ -87,12 +87,14 @@ Algunas tablas pueden utilizar símbolos distintos o directamente otra notación
 ### Desglose de las tablas
 
 #### Principiantes (hasta IIDX 6th dan)
-
 - [Stardust (ξ)](https://mqppppp.neocities.org/ChartView.html): Desde ξ1 hasta ξ13, abarca algunos charts de nivel ☆7
 	- ξ? corresponde a charts sin clasificar
 - [Starlight (sr)](https://djkuroakari.github.io/starlighttable.html): Desde sr0 hasta sr6, abarca desde ☆7 hasta ☆9
 	- sr? corresponde a charts sin clasificar
 	- sr! corresponde a charts con gimmicks
+- Sieglinde: Tablas dedicadas para los ratings de Bokutachi. Desde ☆1 hasta ☆9
+	- Tabla Easy Clear: https://boku.tachi.ac/api/v1/games/bms-7k/custom-tables/sieglindeEC
+	- Tabla Hard Clear: https://boku.tachi.ac/api/v1/games/bms-7k/custom-tables/sieglindeHC
 - [NEW GENERATION 通常難易度表 (Normal table) (▽)](https://rattoto10.jounin.jp/table.html): Desde ▽1 hasta ▽9
 - [通常難易度表 (Normal table)](https://darksabun.github.io/table/archive/normal1): Desde ☆1 hasta ☆9
 #### Intermedio (entre IIDX 6th dan y 9th dan)
@@ -102,6 +104,9 @@ Algunas tablas pueden utilizar símbolos distintos o directamente otra notación
 	- sr13 equivale a sl1 y abarca algunos niveles ▽11+, ▽12-, ▼0- y ▼0
 	- sr? corresponde a charts sin clasificar
 	- sr! corresponde a charts con gimmicks
+- Sieglinde: Tablas dedicadas para los ratings de Bokutachi. Desde ☆9 hasta ☆12
+	- Tabla Easy Clear: https://boku.tachi.ac/api/v1/games/bms-7k/custom-tables/sieglindeEC
+	- Tabla Hard Clear: https://boku.tachi.ac/api/v1/games/bms-7k/custom-tables/sieglindeHC
 - [NEW GENERATION 通常難易度表 (Normal table) (▽)](https://rattoto10.jounin.jp/table.html): Desde ▽9 hasta ▽11
 	- ▽11 empieza a adentrarse en sl0
 - [通常難易度表 (Normal table)](https://darksabun.github.io/table/archive/normal1): Desde ☆9 hasta ☆12
@@ -109,6 +114,9 @@ Algunas tablas pueden utilizar símbolos distintos o directamente otra notación
 - [Satellite (sl)](https://stellabms.xyz/sl/table.html): Desde sl0 hasta sl12
 	- sl0 abarca ★1, sl12 abarca ★18 y ★19
 	- sl0 incluye ▼0- y ▼0
+- Sieglinde: Tablas dedicadas para los ratings de Bokutachi. Desde ★1 hasta ★25
+	- Tabla Easy Clear: https://boku.tachi.ac/api/v1/games/bms-7k/custom-tables/sieglindeEC
+	- Tabla Hard Clear: https://boku.tachi.ac/api/v1/games/bms-7k/custom-tables/sieglindeHC
 - [NEW GENERATION 発狂難易度表 (Insane table) (▼)](https://rattoto10.jounin.jp/table_insane.html): Desde ▼0- hasta ▼24
 	- Excepto ▼0- y ▼0, los niveles equivalen a los de la tabla Insane antigua
 - [発狂BMS難易度表 (Insane table)](https://darksabun.github.io/table/archive/insane1): Desde ★1 hasta ★25
@@ -120,6 +128,9 @@ Algunas tablas pueden utilizar símbolos distintos o directamente otra notación
 	- st9 y st10 son subdivisiones de ★★6
 	- st11 y st12 son subdivisiones de ★★7
 - [Supernova (sn)](https://stellabms.xyz/sn/table.html): Similar a Stella, pero con más gimmicks. Desde sn0 hasta sn11
+- Sieglinde: Tablas dedicadas para los ratings de Bokutachi. Desde ★25 hasta ★28
+	- Tabla Easy Clear: https://boku.tachi.ac/api/v1/games/bms-7k/custom-tables/sieglindeEC
+	- Tabla Hard Clear: https://boku.tachi.ac/api/v1/games/bms-7k/custom-tables/sieglindeHC
 - [NEW GENERATION Overjoy](https://rattoto10.jounin.jp/table_overjoy.html): Desde ★★1 hasta ★★8, actualización de la tabla Overjoy antigua
 - [Overjoy table](https://darksabun.club/table/archive/old-overjoy/): Desde ★★1 hasta ★★7
 - [joverjoy (仝)](https://www.firiex.com/tables/joverjoy): Tabla Overjoy alternativa, desde 仝1 hasta 仝8
@@ -150,6 +161,9 @@ Algunas tablas pueden utilizar símbolos distintos o directamente otra notación
 	    - 早い20 a 早い32 abarcan desde st0 hasta st12
 	- [Delajoy table (dl)](https://lets-go-time-hell.github.io/Delay-joy-table): Tabla de Delay de alta dificultad basada en los niveles de Stella. Desde dl Beginner hasta dl DELAYMASTER
 	    - dl0 equivale a st0, y así sucesivamente hasta st12
+#### Otras tablas
+- [Tabla de Rivales de Bokutachi](https://boku.tachi.ac/api/v1/users/MiamiMan/games/bms-7k/custom-tables/rival-info)
+- [flora (花)](https://nythil.github.io/flora/): Tabla hecha por nythil
 #### Equivalencias de niveles
 - Stardust/Starlight
 ![https://djkuroakari.github.io/resources/Stardustlight%20LongVer.png](https://djkuroakari.github.io/resources/Stardustlight%20LongVer.png)

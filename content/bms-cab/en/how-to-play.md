@@ -94,6 +94,9 @@ Some tables may have different symbols or straight up different signatures (like
 - [Starlight (sr)](https://djkuroakari.github.io/starlighttable.html): From sr0 to sr6, covers from ☆7 up to ☆9
 	- sr? corresponds to unrated charts
 	- sr! corresponds to gimmicky charts
+- Sieglinde: Bokutachi ratings tables. From ☆1 up to ☆9
+	- Easy Clear Table: https://boku.tachi.ac/api/v1/games/bms-7k/custom-tables/sieglindeEC
+	- Hard Clear Table: https://boku.tachi.ac/api/v1/games/bms-7k/custom-tables/sieglindeHC
 - [NEW GENERATION 通常難易度表 (Normal table) (▽)](https://rattoto10.jounin.jp/table.html): From ▽1 to ▽9
 - [通常難易度表 (Normal table)](https://darksabun.github.io/table/archive/normal1): From ☆1 to ☆9
 #### Intermediate (between IIDX 6th dan and 9th dan)
@@ -103,6 +106,9 @@ Some tables may have different symbols or straight up different signatures (like
 	- sr13 equals to sl1, and covers some ▽11+, ▽12-, ▼0- and ▼0
 	- sr? corresponds to unrated charts
 	- sr! corresponds to gimmicky charts
+- Sieglinde: Bokutachi ratings tables. From ☆9 up to ☆12
+	- Easy Clear Table: https://boku.tachi.ac/api/v1/games/bms-7k/custom-tables/sieglindeEC
+	- Hard Clear Table: https://boku.tachi.ac/api/v1/games/bms-7k/custom-tables/sieglindeHC
 - [NEW GENERATION 通常難易度表 (Normal table) (▽)](https://rattoto10.jounin.jp/table.html): From ▽9 to ▽11
 	- ▽11 starts to get into sl0
 - [通常難易度表 (Normal table)](https://darksabun.github.io/table/archive/normal1): From ☆9 to ☆12
@@ -112,6 +118,9 @@ Some tables may have different symbols or straight up different signatures (like
 	- sl0 contains ▼0- and ▼0
 - [NEW GENERATION 発狂難易度表 (Insane table) (▼)](https://rattoto10.jounin.jp/table_insane.html): From ▼0- up to ▼24
 	- Except ▼0- and ▼0, level rating is equal to old Insane table
+- Sieglinde: Bokutachi ratings tables. From ★1 up to ★25
+	- Easy Clear Table: https://boku.tachi.ac/api/v1/games/bms-7k/custom-tables/sieglindeEC
+	- Hard Clear Table: https://boku.tachi.ac/api/v1/games/bms-7k/custom-tables/sieglindeHC
 - [発狂BMS難易度表 (Insane table)](https://darksabun.github.io/table/archive/insane1): From ★1 up to ★25
 - [Solar (so)](https://stellabms.xyz/so/table.html): Like Satellite but more gimmicky. From so0 up to so12
 #### Overjoy
@@ -121,6 +130,9 @@ Some tables may have different symbols or straight up different signatures (like
 	- st9 and st10 are divisions of ★★6
 	- st11 and st12 are divisions of ★★7
 - [Supernova (sn)](https://stellabms.xyz/sn/table.html): Like Stella but more gimmicky. From sn0 up to sn11
+- Sieglinde: Bokutachi ratings tables. From ★25 up to ★28
+	- Easy Clear Table: https://boku.tachi.ac/api/v1/games/bms-7k/custom-tables/sieglindeEC
+	- Hard Clear Table: https://boku.tachi.ac/api/v1/games/bms-7k/custom-tables/sieglindeHC
 - [NEW GENERATION Overjoy](https://rattoto10.jounin.jp/table_overjoy.html): From ★★1 up to ★★8, updated from old Overjoy table
 - [Overjoy table](https://darksabun.club/table/archive/old-overjoy/): From ★★1 up to ★★7
 - [joverjoy (仝)](https://www.firiex.com/tables/joverjoy): Alternative overjoy table, from 仝1 to 仝8
@@ -152,6 +164,9 @@ Some tables may have different symbols or straight up different signatures (like
 		- 早い20 to 早い32 covers from st0 up to st12
 	- [Delajoy table (dl)](https://lets-go-time-hell.github.io/Delay-joy-table): Hard delay table based on Stella ratings. From dl Beginner up to dl DELAYMASTER
 		- dl0 equals to st0, and so on up to st12
+#### Other tables
+- [Bokutachi Rivals Table](https://boku.tachi.ac/api/v1/users/MiamiMan/games/bms-7k/custom-tables/rival-info)
+- [flora (花)](https://nythil.github.io/flora/): Table made by nythil
 #### Level rating conversions
 - Stardust/Starlight
 ![https://djkuroakari.github.io/resources/Stardustlight%20LongVer.png](https://djkuroakari.github.io/resources/Stardustlight%20LongVer.png)

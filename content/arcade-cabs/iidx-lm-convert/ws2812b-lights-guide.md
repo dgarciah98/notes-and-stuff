@@ -46,7 +46,8 @@ tags:
 > 	- T0511 Tape diffusor (for compane): https://es.aliexpress.com/item/1005008376388272.html
 > 	- D1313 180º Tape diffusor (for TP sides) https://es.aliexpress.com/item/1005008109124457.html
 > 	- Spotlights alternative:
-> 		- WS2812B 5050 boards (3bit and 1bit): https://es.aliexpress.com/item/1005007503733494.html
+> 		- WS2812B 5050 boards (for 1bit only): https://es.aliexpress.com/item/1005007503733494.html
+> 		- WS2812B 5050 boards (for 3bit only): https://es.aliexpress.com/item/32835427711.html
 > 		- LED 5050 Reflection lenses 30º: https://es.aliexpress.com/item/1005010252822943.html
 > - #### DC TAPE LED
 > 	- RECOMMENDED to use 22 AWG cable or bigger for feeding 5V to all tapes

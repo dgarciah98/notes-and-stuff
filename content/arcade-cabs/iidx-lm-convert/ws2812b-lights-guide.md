@@ -39,7 +39,7 @@ tags:
 > 		- 19 LED tape x1
 > 		- Total: 17 LED tapes
 > - #### LED lightning
-> 	- WS2812B 60led/m, 100led/m and 120led/m tape (SMD 2020): https://es.aliexpress.com/item/1005005910958172.html
+> 	- WS2812B 60led/m, 100led/m and 120led/m tape (SMD 2020, 5mm PCB): https://es.aliexpress.com/item/1005005910958172.html
 > 	- 3Pin AWG22 wire (just in case): https://es.aliexpress.com/item/33032954455.html
 > 	- JST connectors AWG22: https://es.aliexpress.com/item/33042936981.html
 > 	- B2010 Tape diffusor: https://es.aliexpress.com/item/1005008042786167.html
